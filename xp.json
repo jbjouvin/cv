@@ -1,0 +1,41 @@
+{
+    "title": "Veolia 2017",
+    "titleLong": "Consultant technique sur progiciel de gestion de trésorerie",
+    "compagny": "Veolia",
+    "compagnyLink": "www.veolia.fr",
+    "place": "Paris / Aubervilliers",
+    "dateStart": "04-2015",
+    "dateEnd": "A ce jour",
+    "missions": [
+        {
+            "title": "Solutions Analyst / Mise en Oeuvre",
+            "tasks": [
+                "Développement Python permettant l’injection de transactions en masse via fichier csv, pour déploiement nouvelles entités",
+                "Migration serveur BugZilla win => linux",
+                "Création export comptable (xml, xsl) vers SAP, SAGE",
+                "Accompagnement à l’externalisation du service bureau (Next => Datalog)",
+                "Création export référentiel csv (Banque, Entités, Compte) vers Datalog",
+                "Conduite projet mise en place FxAll en partenariat avec Reuters et WSS",
+                "Accompagnement à l’externalisation de l’hébergement de la suite",
+                "Atelier de mise en place avec l'éditeur (Infra, réseaux, exploitation)"
+            ]
+        },
+        {
+            "title": "Evolution / Developpement continu",
+            "tasks":[
+                "Développement, packaging, intégration, livraison",
+                "Création de proc. stockées pour l’optimisation de rapport",
+                "Gestion xml framework pour mise en place flux bancaire",
+                "Gestion du change control des différentes évolutions (svn)",
+                "Améliorations / Analyse SQL (création : vue, index, trigger)",
+                "Création de rapport et d’activité au sein du progiciel WSS"
+            ]
+        }
+    ],
+    "technicalEnv": [
+        "HP-UX", "Windows server 2003", "tortoise SVN", "Oracle", 
+        "Citrix", "Weblogic", "WSS Suite (CMM, TRM, ACM)", "activeMQ",
+        "shell", "python", "perl", "swift alliance", "esiadapter", "ftp",
+        "sqldev", "PL sql"
+    ]
+}
