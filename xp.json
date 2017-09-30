@@ -1,41 +1,115 @@
 {
-    "title": "Veolia 2017",
-    "titleLong": "Consultant technique sur progiciel de gestion de trésorerie",
-    "compagny": "Veolia",
-    "compagnyLink": "www.veolia.fr",
-    "place": "Paris / Aubervilliers",
-    "dateStart": "04-2015",
-    "dateEnd": "A ce jour",
-    "missions": [
+    "work": [
         {
-            "title": "Solutions Analyst / Mise en Oeuvre",
-            "tasks": [
-                "Développement Python permettant l’injection de transactions en masse via fichier csv, pour déploiement nouvelles entités",
-                "Migration serveur BugZilla win => linux",
-                "Création export comptable (xml, xsl) vers SAP, SAGE",
-                "Accompagnement à l’externalisation du service bureau (Next => Datalog)",
-                "Création export référentiel csv (Banque, Entités, Compte) vers Datalog",
-                "Conduite projet mise en place FxAll en partenariat avec Reuters et WSS",
-                "Accompagnement à l’externalisation de l’hébergement de la suite",
-                "Atelier de mise en place avec l'éditeur (Infra, réseaux, exploitation)"
+            "title": "Veolia 2017",
+            "titleLong": "Consultant technique sur progiciel de gestion de trésorerie",
+            "company": "Veolia",
+            "companyLink": "www.veolia.fr",
+            "place": "Paris / Aubervilliers",
+            "dateStart": "04-2015",
+            "dateEnd": "A ce jour",
+            "missions": [
+                {
+                    "title": "Solutions Analyst / Mise en Oeuvre",
+                    "tasks": [
+                        "Développement Python permettant l’injection de transactions en masse via fichier csv, pour déploiement nouvelles entités",
+                        "Migration serveur BugZilla win => linux",
+                        "Création export comptable (xml, xsl) vers SAP, SAGE",
+                        "Accompagnement à l’externalisation du service bureau (Next => Datalog)",
+                        "Création export référentiel csv (Banque, Entités, Compte) vers Datalog",
+                        "Conduite projet mise en place FxAll en partenariat avec Reuters et WSS",
+                        "Accompagnement à l’externalisation de l’hébergement de la suite",
+                        "Atelier de mise en place avec l'éditeur (Infra, réseaux, exploitation)"
+                    ]
+                },
+                {
+                    "title": "Evolution / Developpement continu",
+                    "tasks": [
+                        "Développement, packaging, intégration, livraison",
+                        "Création de proc. stockées pour l’optimisation de rapport",
+                        "Gestion xml framework pour mise en place flux bancaire",
+                        "Gestion du change control des différentes évolutions (svn)",
+                        "Améliorations / Analyse SQL (création : vue, index, trigger)",
+                        "Création de rapport et d’activité au sein du progiciel WSS"
+                    ]
+                }
+            ],
+            "technicalEnv": [
+                "HP-UX",
+                "Windows server 2003",
+                "tortoise SVN",
+                "Oracle",
+                "Citrix",
+                "Weblogic",
+                "WSS Suite (CMM, TRM, ACM)",
+                "activeMQ",
+                "shell",
+                "python",
+                "perl",
+                "swift alliance",
+                "esiadapter",
+                "ftp",
+                "sqldev",
+                "PL sql"
             ]
         },
         {
-            "title": "Evolution / Developpement continu",
-            "tasks":[
-                "Développement, packaging, intégration, livraison",
-                "Création de proc. stockées pour l’optimisation de rapport",
-                "Gestion xml framework pour mise en place flux bancaire",
-                "Gestion du change control des différentes évolutions (svn)",
-                "Améliorations / Analyse SQL (création : vue, index, trigger)",
-                "Création de rapport et d’activité au sein du progiciel WSS"
+            "title": "Caisse des dépôts",
+            "titleLong": "Consultant Expertise technique et reprise de données",
+            "company": "Caisse des dépôts",
+            "companyLink": "www.cdc.fr",
+            "place": "Paris",
+            "dateStart": "09-2013",
+            "dateEnd": "03-2015",
+            "missions": [
+                {
+                    "title": "Solutions Analyst",
+                    "tasks": [
+                        "Scripting en Shell pour la « reprise d’antériorité » de :",
+                        "Récupération des données du SI existant: MVS, DB2, ORACLE, SYBASE, XML",
+                        "Mise en forme, épuration, bonification des données récupérées",
+                        "Intégration des données (référentiel, dérivation, flux bancaires) dans SGBD ORACLE",
+                        "Comptage / Vérification des données intégrées par rapport à la source (lotissement fonctionnelle)",
+                        "Évolution des Transferts de fichiers sécurisé protocole (CFT)",
+                        "Scripting batch pour la mise en forme automatique des données (winscp, excel)",
+                        "Orchestration via Control-M",
+                        "Ecriture et optimisation de performance des requêtes SQL",
+                        "Packaging (SVN) - Mise en place du repository « RA » comprenant la totalité des scripts (KSH, SQL, ENV)",
+                        "Formation à l’utilisation de SVN au sein de l’équipe (approche dev continu)",
+                        "Création de fonction shell implémentés au sein de l’infrastructure CDC",
+                        "Validation de livrable (document technique, produit)"
+                    ]
+                },
+                {
+                    "title": "Business Analyst",
+                    "tasks": [
+                        "Ateliers avec les équipes fonctionnelles (MOA) des informations nécessaires à l’élaboration des règles de migration (par analyse de la source)",
+                        "Analyse de données à migrer",
+                        "Définition de la cinématique de migration des flux",
+                        "Mise en place des règles de migrations des données",
+                        "Assistance MOA à la recette des données",
+                        "Définition des matrices de flux, configuration des outils de transfert de fichier",
+                        "Documentation et communication en anglais et français."
+                    ]
+                }
+            ],
+            "technicalEnv": [
+                "CFT (SOPRA)",
+                "Unix",
+                "ORACLE", 
+                "SYBASE", 
+                "Scripts KSH",
+                "MVS",
+                "DB2", 
+                "SVN", 
+                "Quality center", 
+                "JIRA", 
+                "Control M.", 
+                "Windows 2003 Server",
+                "script vbs",
+                "CITRIX", 
+                "CISCO"
             ]
         }
-    ],
-    "technicalEnv": [
-        "HP-UX", "Windows server 2003", "tortoise SVN", "Oracle", 
-        "Citrix", "Weblogic", "WSS Suite (CMM, TRM, ACM)", "activeMQ",
-        "shell", "python", "perl", "swift alliance", "esiadapter", "ftp",
-        "sqldev", "PL sql"
     ]
 }
