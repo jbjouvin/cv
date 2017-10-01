@@ -98,19 +98,41 @@
             "technicalEnv": [
                 "CFT (SOPRA)",
                 "Unix",
-                "ORACLE", 
-                "SYBASE", 
+                "ORACLE",
+                "SYBASE",
                 "Scripts KSH",
                 "MVS",
-                "DB2", 
-                "SVN", 
-                "Quality center", 
-                "JIRA", 
-                "Control M.", 
+                "DB2",
+                "SVN",
+                "Quality center",
+                "JIRA",
+                "Control M.",
                 "Windows 2003 Server",
                 "script vbs",
-                "CITRIX", 
+                "CITRIX",
                 "CISCO"
+            ]
+        },
+        {
+            "title": "Compoteuse",
+            "titleLong": "Je fais de la compote pour des petits cochons",
+            "company": "les vergers de chateaubourg",
+            "companyLink": "http://www.lesvergersdechateaubourg.com",
+            "companyLogo": "http://www.academie-metiers-industrie.fr/wp-content/uploads/vergers-de-chateaubourg-academie-metiers-industrie-vitre-1.jpg",
+            "place": "ChateauBourg",
+            "dateStart": "09-2017",
+            "dateEnd": "02-2018",
+            "missions": [
+                {
+                    "title": "rebuteuse",
+                    "tasks": [
+                        "trier les compotes",
+                        "dire bonjour aux gens",
+                        "aller aux toilettes",
+                        "pause café",
+                        "mettre sa blouse"
+                    ]
+                }
             ]
         }
     ]

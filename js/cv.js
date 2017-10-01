@@ -1,8 +1,10 @@
 function addTechnicalEnv(technicalEnv, title){
-    var techItem = technicalEnv;
-    workDiv = document.getElementById(title)
-    techItem.forEach(function (item) {
-        // console.log(task);
+    workDiv = document.getElementById(title);
+    technicalEnv.forEach(function (item) {
+        var echoTechItem = document.createElement("h6");
+        echoTechItem.className = "badge badge-pill badge-info";
+        echoTechItem.textContent = item;
+        workDiv.appendChild(echoTechItem);
     })
 }
 
@@ -10,12 +12,18 @@ function addTechnicalEnv(technicalEnv, title){
 function addMission(mission, title) {
     var missionTitle = mission.title;
     var tasks = mission.tasks;
-    console.log(title)
-    // Ajout titre mission
     workDiv = document.getElementById(title)
-    console.log(workDiv);
+
+    // Ajout titre Mission
+    var titreMission = document.createElement("h5");
+    titreMission.textContent = missionTitle;
+    workDiv.appendChild(titreMission);
+
+    // AJout taches mission
     tasks.forEach(function (task) {
-        // console.log(task);
+        var echoTask = document.createElement("li");
+        echoTask.textContent = task;
+        workDiv.appendChild(echoTask);
     })
 }
 
@@ -29,7 +37,6 @@ function addExp(work) {
     var place = work.place;
     var dateStart = work.dateStart;
     var dateEnd = work.dateEnd;
-
 
     // Create div
     var workDivElt = document.createElement("div");
@@ -68,19 +75,25 @@ function addExp(work) {
     // Ajout Div
     document.getElementById("experiences").appendChild(workDivElt);
 
-
     // ajout missions
     var mission = work.missions.forEach(function (mission, title) {
         addMission(mission, work.title);
     })
 
     //Ajout technicalEnv
-    var technicalEnv = work.technicalEnv.forEach(function (technicalEnv, title) {
-        addTechnicalEnv(technicalEnv, work.title);
-    })
-
-
+    addTechnicalEnv(work.technicalEnv, work.title);
 }
+
+// MAIN
+// Lecture du fichier person.json
+$.getJSON("person.json", function (personData) {
+    // console.log(data);
+    // console.log(Object.keys(data.work).length);
+    // console.log(data.work[0].company);
+    personData.person.forEach(function (person) {
+        addExp(person);
+    });
+});
 
 
 // Lecture du fichier xp.json

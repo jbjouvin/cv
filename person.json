@@ -1,0 +1,114 @@
+{
+    "person": {
+        "name": "Jean-Baptiste",
+        "lastname": "Jouvin",
+        "linkedin": "https://fr.linkedin.com/in/jean-baptiste-jouvin-35773258",
+        "mail": "jb.jouvin@gmail.com",
+        "city": "Paris",
+        "jobTitle": "Solutions Analyst / Business Analyst"
+    },
+    "skills": [
+        {
+            "title": "Etudes Conception",
+            "skillItem": [
+                "Assistance à Maîtrise d’Ouvrage",
+                "Conduite projet",
+                "Maîtrise d’œuvre, conception, réalisation",
+                "Consuite réunions",
+                "Recueil et définition du besoin",
+                "Rédaction des cahiers des charges et spécifications fonctionnelles",
+                "Rédaction de Chronogrammes et plans de bascule"
+            ]
+        },
+        {
+            "title": "Expertise Technique",
+            "skillItem": [
+                "Développement, POO, UML, Agile",
+                "SGBD Infrastructure",
+                "Intégration, Déploiement",
+                "Packaging, SVN",
+                "Support technique niv.3",
+                "Exploitation"
+            ]
+        },
+        {
+            "title": "Assistance Formation",
+            "skillItem":[
+                "Support fonctionnel",
+                "Assistance à la Recette",
+                "Formation et Conseils aux utilisateurs",
+                "Rédaction de documentations et modes opératoires"
+            ]
+        }
+    ],
+    "techSkills": {
+        "title": "Compétences Techniques",
+        "skillItem": [
+            {
+                "names": "SQL, PL SQL, Oracle, Mysql, Postgres",
+                "level": "80%"
+            },
+            {
+                "names": "Python, Shell, bash, sed, regexp",
+                "level": "80%"
+            },
+            {
+                "names": "Apache, Nginx, Tomcat, Weblogic",
+                "level": "60%"
+            },
+            {
+                "names": "SVN, GIT",
+                "level": "70%"
+            },
+            {
+                "names": "Docker, VMware, MongoDB",
+                "level": "55%"
+            },
+            {
+                "names": "Hadoop, AWS",
+                "level": "40%"
+            },
+            {
+                "names": "java",
+                "level": "35%"
+            }
+        ]
+    },
+    "formations":[
+        {
+            "school":"",
+            "schoolLogo":"",
+            "place":"",
+            "date":""
+        },
+        {
+            "school":"",
+            "schoolLogo":"",
+            "place":"",
+            "date":""
+        },
+        {
+            "school":"",
+            "schoolLogo":"",
+            "place":"",
+            "date":""
+        },
+        {
+            "school":"",
+            "schoolLogo":"",
+            "place":"",
+            "date":""
+        }
+    ],
+    "loisirs":[
+        {
+            "type": "sport",
+            "list":[
+                "Basket",
+                "Boxe Anglaise",
+                "Vélo",
+                "Running"
+            ]
+        }
+    ]
+}
