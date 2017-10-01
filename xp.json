@@ -1,10 +1,11 @@
 {
     "work": [
         {
-            "title": "Veolia 2017",
+            "title": "Veolia2017",
             "titleLong": "Consultant technique sur progiciel de gestion de trésorerie",
             "company": "Veolia",
-            "companyLink": "www.veolia.fr",
+            "companyLink": "http://www.veolia.fr",
+            "companyLogo": "https://www.veolia.fr/sites/g/files/dvc141/f/assets/images/2015/05/Logo_Veolia_1.jpg",
             "place": "Paris / Aubervilliers",
             "dateStart": "04-2015",
             "dateEnd": "A ce jour",
@@ -57,7 +58,8 @@
             "title": "Caisse des dépôts",
             "titleLong": "Consultant Expertise technique et reprise de données",
             "company": "Caisse des dépôts",
-            "companyLink": "www.cdc.fr",
+            "companyLink": "http://www.caissedesdepots.fr",
+            "companyLogo": "https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Logo_groupe_Caisse_des_D%C3%A9p%C3%B4ts.svg/656px-Logo_groupe_Caisse_des_D%C3%A9p%C3%B4ts.svg.png",
             "place": "Paris",
             "dateStart": "09-2013",
             "dateEnd": "03-2015",
