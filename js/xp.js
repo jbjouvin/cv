@@ -1,3 +1,4 @@
+
 function addTechnicalEnv(technicalEnv, title){
     workDiv = document.getElementById(title);
     technicalEnv.forEach(function (item) {
@@ -72,6 +73,7 @@ function addExp(work) {
     dateElt.className = "dates";
     workDivElt.appendChild(dateElt);
 
+
     // Ajout Div
     document.getElementById("experiences").appendChild(workDivElt);
 
@@ -85,16 +87,6 @@ function addExp(work) {
 }
 
 // MAIN
-// Lecture du fichier person.json
-$.getJSON("person.json", function (personData) {
-    // console.log(data);
-    // console.log(Object.keys(data.work).length);
-    // console.log(data.work[0].company);
-    personData.person.forEach(function (person) {
-        addExp(person);
-    });
-});
-
 
 // Lecture du fichier xp.json
 $.getJSON("xp.json", function (data) {
