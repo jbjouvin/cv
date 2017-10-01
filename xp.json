@@ -114,26 +114,229 @@
             ]
         },
         {
-            "title": "Compoteuse",
-            "titleLong": "Je fais de la compote pour des petits cochons",
-            "company": "les vergers de chateaubourg",
-            "companyLink": "http://www.lesvergersdechateaubourg.com",
-            "companyLogo": "http://www.academie-metiers-industrie.fr/wp-content/uploads/vergers-de-chateaubourg-academie-metiers-industrie-vitre-1.jpg",
-            "place": "ChateauBourg",
-            "dateStart": "09-2017",
-            "dateEnd": "02-2018",
+            "title": "Veolia2013",
+            "titleLong": "Consultant technique au sein du département Veolia IT",
+            "company": "Veolia",
+            "companyLink": "http://www.veolia.fr",
+            "companyLogo": "https://www.veolia.fr/sites/g/files/dvc141/f/assets/images/2015/05/Logo_Veolia_1.jpg",
+            "place": "Nanterre",
+            "dateStart": "08-2011",
+            "dateEnd": "09-2013",
             "missions": [
                 {
-                    "title": "rebuteuse",
+                    "title": "En charge de l’ensemble des environnements de production, accompagnement d'une montée de version majeure du projet Next (Suite complète Wallstreet Systems, SwiftNet, Reuters) pour la gestion de trésorerie",
                     "tasks": [
-                        "trier les compotes",
-                        "dire bonjour aux gens",
-                        "aller aux toilettes",
-                        "pause café",
-                        "mettre sa blouse"
+                        "Réception et intégration des différentes versions de développements fournis par l'éditeur sur l'ensemble de nos plateformes d'intégration.",
+                        "Mise en place d'outils de monitoring sur nos environnements d'intégration afin d'analyser le comportement des versions livrées.",
+                        "Script shell de : contrôle de File System, purge de log applicatif, backup, etc…",
+                        "Mise en place d'un système de rafraichissement de base de données quotidien pour DW (RMAN, SQL, shell)",
+                        "Conduite de projet de mise en place de transfert de flux avec les différentes entités du groupe VEOLIA (Dalkia, transport, eau, etc.)",
+                        "Mise en place d'une base de données à partir de log applicatif à des fins d'analyse de comportement.",
+                        "Création de requêtes SQL de reporting et de contrôle",
+                        "Gestion de Configuration avec les équipes de production VEIT de SVN sur les différents serveurs d’applications (INT, REC, VAL, PROD, etc…)",
+                        "Création de branch SVN pour simplifier la gestion et le suivi des différents environnements.",
+                        "Analyse et mise en place de flux bancaires",
+                        "Compréhension et mise en forme technique auprès de l'éditeur des différents besoins des utilisateurs",
+                        "Rédaction de cahiers des charges de spécifications fonctionnelles et de documents d'exploitation"
+                    ]
+                },
+                {
+                    "title": "TMA / Support niv 2,3 sur le projet Next avant et après montée de version",
+                    "tasks": [
+                        "Accompagnement et formation du support niveau 2,3 sur la nouvelle version du projet Next",
+                        "Rédaction de la procédure d'installation",
+                        "Packaging des livrables auprès de la production",
+                        "Gestion et optimisation de la production (Analyse SQL et renvoi éditeur, config. oracle, config. serveur)",
+                        "Mise en place et gestion des remontées d’alertes et notification aux services concernés via emails",
+                        "Communication et escalade sur incidents et des alertes",
+                        "Gestion technique des plans de secours et de reprise d’activité",
+                        "Prise en main des pratiques ITIL (Gestion du changement)"
                     ]
                 }
+            ],
+            "technicalEnv": [
+                "HP-UX",
+                "Windows server 2003",
+                "SVN",
+                "Oracle 10g",
+                "Citrix",
+                "IIS",
+                "Weblogic",
+                "Apache",
+                "WSS Suite",
+                "activeMQ",
+                "Java",
+                "shell",
+                "python",
+                "perl",
+                "swift alliance",
+                "esiadapter",
+                "rmds",
+                "samba",
+                "cft",
+                "ftp",
+                "centreon",
+                "sqldev",
+                "sql",
+                "PL sql",
+                "spid",
+                "service-now"
             ]
-        }
+        },
+        {
+            "title": "Accor",
+            "titleLong": "Analyste Exploitation Production",
+            "company": "Accor / Edenred",
+            "companyLink": "http://www.edenred.fr/",
+            "companyLogo": "https://media.licdn.com/mpr/mpr/shrink_200_200/AAEAAQAAAAAAAAMEAAAAJGNjOWFjNGE4LTcxMGItNDlmMS04OWIwLTYwN2JhMzc4MDZjNA.png",
+            "place": "Paris",
+            "dateStart": "09-2007",
+            "dateEnd": "04-2011",
+            "missions": [
+                {
+                    "title": "",
+                    "tasks": [
+                        "Supervision de l’exploitation",
+                        "Supervision des interfaces partenaires",
+                        "Rédaction de procédures d’exploitation",
+                        "Tests, recettes et intégration d’applications en production (hebdo)",
+                        "Surveillance / correction / lancement de batch quotidiennement",
+                        "Configuration et utilisation de Nagios (Monitoring)",
+                        "Extractions SQL de bases clients pour le marketing",
+                        "Adaptation et développement de scripts SQL de corrections",
+                        "Transformation / intégration de fichiers plat",
+                        "Support Applicatif client / Assistance Utilisateurs",
+                        "Support aux équipes de développement pour toutes les actions de livraisons",
+                        "Formation et accompagnement des nouveaux arrivants au sein de la cellule"
+                    ]
+                }
+            ],
+            "technicalEnv": [
+                "Java",
+                "struts",
+                "Hibernate",
+                "eclipse",
+                "debian",
+                "redhat",
+                "tomcat",
+                "apache",
+                "resin",
+                "joomla",
+                "ANT",
+                "XML",
+                "Informix",
+                "Postgres",
+                "Talend",
+                "shell",
+                "XSD XSL",
+                "CFT",
+                "SSH",
+                "GPG",
+                "SFTP",
+                "Crontab",
+                "Quartz",
+                "Squid",
+                "Maven",
+                "Archiva",
+                "Continuum",
+                "Squirell",
+                "pgAdmin"
+            ]
+        },
+        {
+            "title": "Opera",
+            "titleLong": "Technicien d'exploitation",
+            "company": "Opéra National de Paris",
+            "companyLink": "http://www.operadeparis.fr",
+            "companyLogo": "http://www.club-innovation-culture.fr/wp-content/uploads/Logo_Beige_-_Op_ra_national_de_Paris_-_2009.png",
+            "place": "Paris",
+            "dateStart": "01-2005",
+            "dateEnd": "06-2007",
+            "missions": [
+                {
+                    "title": "",
+                    "tasks": [
+                        "Mise à jour, interrogation, lancement de jobs récurrents sur la BDD Opéra.",
+                        "Contrôle du bon fonctionnement des applications sur le serveur",
+                        "Gestion des sauvegardes des systèmes de production",
+                        "Rédaction de procédures d’exploitation",
+                        "Paramétrage du progiciel PLEIADES (Demande, Edi, etc…)",
+                        "Création / modification de requête SQL via Business Object.",
+                        "Développement d’applications en Visual Basic.",
+                        "Support utilisateur d’une macro Excel d’assistance de planification, pour les cadres de l’Opéra.",
+                        "Création de script de publipostage"
+                    ]
+                }
+            ],
+            "technicalEnv": [
+                "Business Object",
+                "Pleiades", 
+                "Visual Basic", 
+                "Excel", 
+                "Word", 
+                "telnet"
+            ]
+        },
+        {
+            "title": "Bosch",
+            "titleLong": "Technicien logiciel / électronique embarqué",
+            "company": "Bosch",
+            "companyLink": "http://www.bosch.fr",
+            "companyLogo": "https://www.comparatif-aspirateur.com/wp-content/uploads/2017/02/aspirateur-bosch.jpg",
+            "place": "Saint-Ouen",
+            "dateStart": "09-2001",
+            "dateEnd": "10-2004",
+            "missions": [
+                {
+                    "title": "",
+                    "tasks": [
+                        "Analyse et développement en C/C++ de fonctions moteur pour le Motronic",
+                        "Relecture de code pour Optimisation",
+                        "Tests unitaire et intégration",
+                        "Figeages avant production en série",
+                        "Validations, essais sur banc et véhicules",
+                        "Rédaction de documentations des fonctions",
+                        "Rédactions de méthodologie des tests effectués"
+                    ]
+                }
+            ],
+            "technicalEnv": [
+                "C", 
+                "C++", 
+                "ASM", 
+                "Codewright", 
+                "Messplatz Labcar (labo)",
+                "outils/logiciels entreprise"
+            ]
+        },
+        {
+            "title": "towercast",
+            "titleLong": "Stage – Analyste développeur ",
+            "company": "towerCast",
+            "companyLink": "http://www.towercast.fr",
+            "companyLogo": "https://media.glassdoor.com/sqll/1137016/towercast-squarelogo-1456996746574.png",
+            "place": "Paris",
+            "dateStart": "03-2001",
+            "dateEnd": "06-2001",
+            "missions": [
+                {
+                    "title": "",
+                    "tasks": [
+                        "Compréhension et analyse du fonctionnement du système GPS",
+                        "Réception des données NMEA d’un récepteur GPS GARMIN par liaison série RS232",
+                        "Analyse et transformation de la trame de données NMEA.",
+                        "Programmation de la réception des données en Delphi",
+                        "Création d’une interface graphique pour faciliter la lisibilité du récepteur"
+                    ]
+                }
+            ],
+            "technicalEnv": [
+                "Delphi", 
+                "Visual Studio", 
+                "technologie série RS232", 
+                "données GPS NMEA", 
+                "Technologie GPS"
+            ]
+        }   
     ]
 }
