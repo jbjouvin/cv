@@ -5,3 +5,26 @@
 .progress-bar{
     background-color: #47d38a
 }
+
+
+.titre-long{
+    margin-bottom: 25px;
+}
+
+.mission-title{
+    margin: 18px;
+}
+
+.mission-task{
+    margin-left: 50px;
+}
+
+
+.tech-env-title{
+    margin: 18px;
+}
+
+.technical-pastille{
+    margin-right: 5px;
+}
+
