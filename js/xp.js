@@ -49,7 +49,7 @@ function addExp(work) {
 
     // Create div
     var workDivElt = document.createElement("div");
-    workDivElt.className = "col s12";
+    workDivElt.className = "col-s12";
     workDivElt.id = title;
 
     // Title + company + link + img

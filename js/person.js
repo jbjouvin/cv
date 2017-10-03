@@ -1,64 +1,84 @@
-function initPerson(person){
+function initPerson(person) {
     var name = person.name;
     var lastName = person.lastname;
     var linkedin = person.linkedin;
     var avatar = person.avatar;
     var mail = person.mail;
     var city = person.city;
+    var country = person.country;
     var jobTitle = person.jobTitle;
 
-    //
-    var personDiv = document.getElementById("adminPhoto");
+    // Title
+    document.title = "CV " + name + " " + lastName;
+
+    // div nameJob
+    var nameJobDiv = document.getElementById("nameJob");
+
+    var nameLastname = document.createElement("h3");
+    nameLastname.textContent = name + lastName;
+
+    var nameJobTitle = document.createElement("h4");
+    nameJobTitle.textContent = jobTitle;
+
+    nameJobDiv.appendChild(nameLastname);
+    nameJobDiv.appendChild(nameJobTitle);
+
+    // div adminPhoto
+    var photoDiv = document.getElementById("photo");
+
+    // avatar
     var avatarElt = document.createElement("img");
     avatarElt.className = "rounded-circle";
     avatarElt.align = "right";
     avatarElt.border = "75px";
     avatarElt.width = 175;
     avatarElt.height = 175;
-    avatarElt.alt = name + " " +lastName;
+    avatarElt.alt = name + " " + lastName;
     avatarElt.src = avatar;
 
-    personDiv.appendChild(avatarElt);
+    photoDiv.appendChild(avatarElt);
 
     // icone identity
+    var adminDiv = document.getElementById("admin");
+
     var iconeElt = document.createElement("i");
     iconeElt.className = "material-icons";
     iconeElt.textContent = "perm_identity";
-    personDiv.appendChild(iconeElt);
-    
+    adminDiv.appendChild(iconeElt);
+    adminDiv.appendChild(document.createElement("br"));
+
     //city
     var cityElt = document.createElement("a");
-    cityElt.textContent = city;
-    cityElt.href = "https://www.google.fr/maps/place/"+city;
-    
-    personDiv.appendChild(cityElt);
+    cityElt.textContent = city + ", " + country;
+    cityElt.href = "https://www.google.fr/maps/place/" + city;
 
-    // <i class="material-icons">perm_identity</i>
-    // <a href="https://www.google.fr/maps/place/Paris">Paris, France</a>
-    // <a href="mailto:jb.jouvin@gmail.com">jb.jouvin@gmail.com</a>
-    // <a href="https://fr.linkedin.com/in/jean-baptiste-jouvin-35773258">Linkedin</a>
+    adminDiv.appendChild(cityElt);
+    adminDiv.appendChild(document.createElement("br"));
+
+    //Linkedin
+    var linkedinElt = document.createElement("a");
+    linkedinElt.textContent = "linkedin";
+    linkedinElt.href = linkedin;
+
+    adminDiv.appendChild(linkedinElt);
+    adminDiv.appendChild(document.createElement("br"));
+
+    //mail
+    var mailElt = document.createElement("a");
+    mailElt.textContent = mail;
+    mailElt.href = "mailto:" + mail;
+
+    adminDiv.appendChild(mailElt);
+
 }
 
-function initSkills(skills){
-    var skillsTitle = skills.title;
-    console.log(skillsTitle);
-}
-
-function initTechSkills(techSkills){
-    var titleTechSkills = techSkills.title;
-    console.log(titleTechSkills);
-}
 
 // MAIN
 // Lecture du fichier person.json
 $.getJSON("person.json", function (personData) {
-    console.log(personData);
+    //console.log(personData);
     // console.log(Object.keys(data.work).length);
     // console.log(data.work[0].company);
     initPerson(personData.person);
-    personData.skills.forEach(function(skills) {
-        initSkills(skills)
-    });
-    initTechSkills(personData.techSkills);
 });
 

@@ -10,13 +10,14 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
     <!--Import bootstrap.css-->
-    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" media="screen,projection,print" />
+    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css"
+        media="screen,projection,print" />
     <link type="text/css" rel="stylesheet" href="css/style.css" media="screen,projection,print" />
     <!--Let browser know website is optimized for mobile-->
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 
 
-    <title>Resume</title>
+    <title></title>
 </head>
 
 <body>
@@ -24,36 +25,64 @@
     <!--Import jQuery before bootstrap.js-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/person.js"></script>
-    <script type="text/javascript" src="js/xp.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
 
+    <script type="text/javascript" src="js/person.js"></script>
+    <script type="text/javascript" src="js/skills.js"></script>
+    <script type="text/javascript" src="js/xp.js"></script>
+    <script type="text/javascript" src="js/formations.js"></script>
+    <script type="text/javascript" src="js/loisirs.js"></script>
 
     <!-- NAVIGATION MENU -->
 
     <!-- HEADER -->
-    <div class="container entete row" id="header">
-        <div class="col-8" id="nameJob"></div>
-        <div class="col-4" id="adminPhoto"></div>
+    <div class="container" id="header">
+        <div class="row">
+            <div class="col-6" id="nameJob"></div>
+            <div class="col-6" id="adminPhoto">
+                <div class="row">
+                    <div class="col-8" id="admin"></div>
+                    <div class="col-4" id="photo"></div>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <!-- ETUDES CONCEPTION -->
+    <hr>
 
-    <!-- COMPETENCES TECHNIQUES -->
+    <div class="container">
+        <div class="row">
+            <!-- ETUDES CONCEPTION -->
+            <div class="col-6" id="etudesConception"></div>
+            <!-- COMPETENCES TECHNIQUES -->
+            <div class="col-6" id="competencesTechniques"></div>
+        </div>
+    </div>
 
-    <!-- EXPERTISE TECHNIQUE -->
+    <div class="container">
+        <div class="row">
+            <!-- EXPERTISE TECHNIQUE -->
+            <div class="col-6" id="expertiseTechnique"></div>
+            <!-- ASSISTANCE FORMATION -->
+            <div class="col-6" id="assistanceFormation"></div>
+        </div>
+    </div>
 
-    <!-- ASSISTANCE FORMATION -->
+    <hr>
 
     <!-- EXPERIENCES -->
     <div class="container" id="experiences">
         <h3><i class="material-icons">business</i> Expériences</h3>
     </div>
 
+    <hr>
+
     <!-- FORMATIONS -->
     <div class="container" id="formations">
         <h3><i class="material-icons">work</i> Formations</h3>
     </div>
+
+    <hr>
 
     <!-- LOISIRS -->
     <div class="container" id="loisirs">

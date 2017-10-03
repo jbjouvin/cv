@@ -1,0 +1,32 @@
+{
+    "formations": [
+        {
+            "formationName": "Bac STI Electrotechnique",
+            "school": "Lycée Edouard Branly",
+            "schoolLogo": "http://branlycreteil.free.fr/index_fichiers/image1568.gif",
+            "place": "Créteil",
+            "date": "1999"
+        },
+        {
+            "formationName": "DUT en Génie Electrique Informatique Industrielle",
+            "school": "IUT Cachan",
+            "schoolLogo": "http://menagerietechnologique.fr/wp-content/uploads/2015/06/partenaire-logo-IUT-Cachan.png",
+            "place": "Cachan",
+            "date": "2001"
+        },
+        {
+            "formationName": "Formation MIT Computer Science and Programming Using Python",
+            "school": "EDX",
+            "schoolLogo": "https://www.edx.org/sites/default/files/mediakit/image/thumb/edx_logo_200x200.png",
+            "place": "MOOC",
+            "date": "2015"
+        },
+        {
+            "formationName": "Python Objet",
+            "school": "Euronode / Orsys",
+            "schoolLogo": "http://static8.viadeo-static.com/ZvbWWV-2iigGfcw69k2nrFS8AzY=/fit-in/200x200/filters:fill(white)/e0d287cbf368459b8c41e18dec39835c/image.jpg",
+            "place": "Paris la Défense",
+            "date": "2016"
+        }
+    ]
+}
