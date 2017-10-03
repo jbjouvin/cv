@@ -2,8 +2,6 @@ function initLoisirs(loisirs) {
     loisirs.forEach(function (loisir) {
         type = loisir.type;
         list = loisir.list;
-        console.log(type);
-        console.log(list);
 
         var workDiv = document.getElementById("loisirs");
 
@@ -17,7 +15,6 @@ function initLoisirs(loisirs) {
         var loisirList = document.createElement("ul");
         loisirList.className = "loisir-list"
         list.forEach(function (item){
-            console.log(item);
             var itemElt = document.createElement("li")
             itemElt.textContent = item;
             itemElt.className = "loisir-item"

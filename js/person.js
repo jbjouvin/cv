@@ -86,6 +86,9 @@ function initPerson(person) {
     adminDiv.appendChild(githubElt);
     adminDiv.appendChild(document.createElement("br"));
 
+    // fork this cv template:
+    
+
     // GitLab
     // fa fa-gitlab
     var iconeGitlabElt = document.createElement("i");
