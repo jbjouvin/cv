@@ -2,6 +2,8 @@ function initPerson(person) {
     var name = person.name;
     var lastName = person.lastname;
     var linkedin = person.linkedin;
+    var github = person.github;
+    var gitlab = person.gitlab;
     var avatar = person.avatar;
     var mail = person.mail;
     var city = person.city;
@@ -38,16 +40,13 @@ function initPerson(person) {
 
     photoDiv.appendChild(avatarElt);
 
-    // icone identity
     var adminDiv = document.getElementById("admin");
 
-    var iconeElt = document.createElement("i");
-    iconeElt.className = "material-icons";
-    iconeElt.textContent = "perm_identity";
-    adminDiv.appendChild(iconeElt);
-    adminDiv.appendChild(document.createElement("br"));
-
-    //city
+    //city 
+    // fa fa-map-marker
+    var iconeCityElt = document.createElement("i");
+    iconeCityElt.className = "fa fa-map-marker";
+    adminDiv.appendChild(iconeCityElt);
     var cityElt = document.createElement("a");
     cityElt.textContent = city + ", " + country;
     cityElt.href = "https://www.google.fr/maps/place/" + city;
@@ -56,19 +55,49 @@ function initPerson(person) {
     adminDiv.appendChild(document.createElement("br"));
 
     //Linkedin
+    var iconeLinkedinElt = document.createElement("i");
+    iconeLinkedinElt.className = "fa fa-linkedin-square";
+    adminDiv.appendChild(iconeLinkedinElt);
     var linkedinElt = document.createElement("a");
     linkedinElt.textContent = "linkedin";
     linkedinElt.href = linkedin;
-
     adminDiv.appendChild(linkedinElt);
     adminDiv.appendChild(document.createElement("br"));
 
     //mail
+    // fa fa-envelope-o
+    var iconeMailElt = document.createElement("i");
+    iconeMailElt.className = "fa fa-envelope-o";
+    adminDiv.appendChild(iconeMailElt);
     var mailElt = document.createElement("a");
     mailElt.textContent = mail;
     mailElt.href = "mailto:" + mail;
-
     adminDiv.appendChild(mailElt);
+    adminDiv.appendChild(document.createElement("br"));
+
+    // Github
+    // fa fa-github
+    var iconeGithubElt = document.createElement("i");
+    iconeGithubElt.className = "fa fa-github";
+    adminDiv.appendChild(iconeGithubElt);
+    var githubElt = document.createElement("a");
+    githubElt.textContent = "github";
+    githubElt.href = github;
+    adminDiv.appendChild(githubElt);
+    adminDiv.appendChild(document.createElement("br"));
+
+    // GitLab
+    // fa fa-gitlab
+    var iconeGitlabElt = document.createElement("i");
+    iconeGitlabElt.className = "fa fa-gitlab";
+    adminDiv.appendChild(iconeGitlabElt);
+    var gitlabElt = document.createElement("a");
+    gitlabElt.textContent = "gitlab";
+    gitlabElt.href = gitlab;
+    adminDiv.appendChild(gitlabElt);
+    adminDiv.appendChild(document.createElement("br"));
+
+    
 
 }
 
