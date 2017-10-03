@@ -99,7 +99,7 @@ function addExp(work) {
 // MAIN
 
 // Lecture du fichier xp.json
-$.getJSON("xp.json", function (data) {
+$.getJSON("json/xp.json", function (data) {
     // console.log(data);
     // console.log(Object.keys(data.work).length);
     // console.log(data.work[0].company);

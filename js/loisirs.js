@@ -35,6 +35,6 @@ function initLoisirs(loisirs) {
 
 // MAIN
 // Lecture du fichier loisirs.json
-$.getJSON("loisirs.json", function (loisirsData) {
+$.getJSON("json/loisirs.json", function (loisirsData) {
     initLoisirs(loisirsData.loisirs);
 });

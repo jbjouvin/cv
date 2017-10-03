@@ -75,7 +75,7 @@ function initPerson(person) {
 
 // MAIN
 // Lecture du fichier person.json
-$.getJSON("person.json", function (personData) {
+$.getJSON("json/person.json", function (personData) {
     //console.log(personData);
     // console.log(Object.keys(data.work).length);
     // console.log(data.work[0].company);

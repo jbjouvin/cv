@@ -42,6 +42,6 @@ function initFormation(formations) {
 
 // MAIN
 // Lecture du fichier formations.json
-$.getJSON("formations.json", function (formationData) {
+$.getJSON("json/formations.json", function (formationData) {
     initFormation(formationData.formations)
 });

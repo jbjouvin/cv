@@ -61,7 +61,7 @@ function initTechSkills(techSkills) {
 
 // MAIN
 // Lecture du fichier person.json
-$.getJSON("skills.json", function (skillsData) {
+$.getJSON("json/skills.json", function (skillsData) {
     //console.log(skillsData);
     // console.log(Object.keys(data.work).length);
     // console.log(data.work[0].company);
