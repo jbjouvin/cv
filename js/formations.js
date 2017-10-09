@@ -16,10 +16,9 @@ function initFormation(formations) {
         titleFormationEltStrong.textContent = formationName;
         titleFormationElt.appendChild(titleFormationEltStrong);
         
-        var titleFormationEltPlace = document.createElement("a");
-        titleFormationEltPlace.textContent =  " à " + place ;
-
-        titleFormationElt.appendChild(titleFormationEltPlace);
+        var titleFormationEltSchool = document.createElement("a");
+        titleFormationEltSchool.textContent = " " + school + ',' ;
+        titleFormationElt.appendChild(titleFormationEltSchool);
 
         var schoolLogoElt = document.createElement("img");
         schoolLogoElt.src = schoolLogo;
@@ -30,7 +29,7 @@ function initFormation(formations) {
         titleFormationElt.appendChild(schoolLogoElt);
 
         var dateElt = document.createElement("span");
-        dateElt.textContent = place + " " + date;
+        dateElt.textContent = place + ", " + date;
 
         formationElt.appendChild(titleFormationElt);
         formationElt.appendChild(dateElt);
