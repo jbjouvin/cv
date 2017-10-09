@@ -68,10 +68,14 @@
                     "title": "Solutions Analyst",
                     "tasks": [
                         "Scripting en Shell pour la « reprise d’antériorité » de :",
-                        "Récupération des données du SI existant: MVS, DB2, ORACLE, SYBASE, XML",
-                        "Mise en forme, épuration, bonification des données récupérées",
-                        "Intégration des données (référentiel, dérivation, flux bancaires) dans SGBD ORACLE",
-                        "Comptage / Vérification des données intégrées par rapport à la source (lotissement fonctionnelle)",
+                        {
+                            "miniTasks": [
+                                "Récupération des données du SI existant: MVS, DB2, ORACLE, SYBASE, XML",
+                                "Mise en forme, épuration, bonification des données récupérées",
+                                "Intégration des données (référentiel, dérivation, flux bancaires) dans SGBD ORACLE",
+                                "Comptage / Vérification des données intégrées par rapport à la source (lotissement fonctionnelle)"
+                            ]
+                        },
                         "Évolution des Transferts de fichiers sécurisé protocole (CFT)",
                         "Scripting batch pour la mise en forme automatique des données (winscp, excel)",
                         "Orchestration via Control-M",
@@ -270,10 +274,10 @@
             ],
             "technicalEnv": [
                 "Business Object",
-                "Pleiades", 
-                "Visual Basic", 
-                "Excel", 
-                "Word", 
+                "Pleiades",
+                "Visual Basic",
+                "Excel",
+                "Word",
                 "telnet"
             ]
         },
@@ -301,10 +305,10 @@
                 }
             ],
             "technicalEnv": [
-                "C", 
-                "C++", 
-                "ASM", 
-                "Codewright", 
+                "C",
+                "C++",
+                "ASM",
+                "Codewright",
                 "Messplatz Labcar (labo)",
                 "outils/logiciels entreprise"
             ]
@@ -331,12 +335,12 @@
                 }
             ],
             "technicalEnv": [
-                "Delphi", 
-                "Visual Studio", 
-                "technologie série RS232", 
-                "données GPS NMEA", 
+                "Delphi",
+                "Visual Studio",
+                "technologie série RS232",
+                "données GPS NMEA",
                 "Technologie GPS"
             ]
-        }   
+        }
     ]
 }

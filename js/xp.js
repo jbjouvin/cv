@@ -1,5 +1,5 @@
 
-function addTechnicalEnv(technicalEnv, title){
+function addTechnicalEnv(technicalEnv, title) {
     workDiv = document.getElementById(title);
     var techEnv = document.createElement("h5");
     techEnv.textContent = "Environnement Technique";
@@ -11,7 +11,7 @@ function addTechnicalEnv(technicalEnv, title){
         echoTechItem.className = "badge badge-pill badge-info technical-pastille";
         echoTechItem.textContent = item;
         workDiv.appendChild(echoTechItem);
-        
+
     })
 }
 
@@ -32,7 +32,21 @@ function addMission(mission, title) {
         var echoTask = document.createElement("li");
         echoTask.className = "mission-task";
         echoTask.textContent = task;
-        workDiv.appendChild(echoTask);
+        // catch mini-task
+        if (typeof task === 'object') {
+            var miniTaskUl = document.createElement("ol")
+            miniTasks = task.miniTasks;
+            miniTasks.forEach(function (miniTask) {
+                var echoMiniTask = document.createElement("li");
+                echoMiniTask.className = "mini-task";
+                echoMiniTask.textContent = miniTask;
+                miniTaskUl.appendChild(echoMiniTask)
+            })
+            workDiv.appendChild(miniTaskUl);
+        }
+        else {
+            workDiv.appendChild(echoTask);
+        }
     })
 }
 

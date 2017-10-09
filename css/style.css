@@ -19,6 +19,9 @@
     margin-left: 50px;
 }
 
+.mini-task{
+    margin-left: 65px;
+}
 
 .tech-env-title{
     margin: 18px;
@@ -55,4 +58,19 @@
 
 .fa {
     margin-right: 10px;
+}
+
+/* 4 */
+
+#etudesConception{
+    margin-bottom: 20px;
+}
+#competencesTechniques{
+    margin-bottom: 20px;
+}
+#expertiseTechnique{
+    margin-bottom: 20px;
+}
+#assistanceFormation{
+    margin-bottom: 20px;
 }
