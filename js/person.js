@@ -17,7 +17,7 @@ function initPerson(person) {
     var nameJobDiv = document.getElementById("nameJob");
 
     var nameLastname = document.createElement("h3");
-    nameLastname.textContent = name + lastName;
+    nameLastname.textContent = name + " " + lastName;
 
     var nameJobTitle = document.createElement("h4");
     nameJobTitle.textContent = jobTitle;
