@@ -1,12 +1,9 @@
 langage: python
   - "3.6"
-script:
-  - make build
 deploy:
   provider: s3
   access_key_id: "$AWS_ACCESS_KEY_ID"
   secret_access_key: "$AWS_SECRET_ACCESS_KEY"
   bucket: jbjouvin.pro
   skip_cleanup: true
-  local_dir: build
   region: eu-west-1
