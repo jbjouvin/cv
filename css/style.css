@@ -1,11 +1,6 @@
 .progress{
-    margin-bottom: 10px;
+    margin-bottom: 7px;
 }
-
-.progress-bar{
-    background-color: #47d38a
-}
-
 
 .titre-long{
     margin-bottom: 25px;
@@ -59,6 +54,16 @@
 .fa {
     margin-right: 10px;
 }
+
+
+.bg-warning {
+    background-color: #55a066 !important;
+}
+
+.bg-danger {
+    background-color: #74997c !important;
+}
+
 
 /* 4 */
 

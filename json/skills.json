@@ -42,31 +42,38 @@
         "skillItem": [
             {
                 "names": "SQL, PL SQL, Oracle, Mysql, Postgres",
-                "level": "80%"
+                "level": "90%",
+                "levelColor": "success"
             },
             {
                 "names": "Python, Shell, Javascript, sed, regexp",
-                "level": "80%"
-            },
-            {
-                "names": "Apache, Nginx, Tomcat, Weblogic",
-                "level": "60%"
+                "level": "85%",
+                "levelColor": "success"
             },
             {
                 "names": "SVN, GIT",
-                "level": "80%"
+                "level": "80%",
+                "levelColor": "success"
+            },
+            {
+                "names": "Apache, Nginx, Tomcat, Weblogic",
+                "level": "60%",
+                "levelColor": "warning"
             },
             {
                 "names": "Docker, MongoDB",
-                "level": "55%"
+                "level": "55%",
+                "levelColor": "warning"
             },
             {
                 "names": "Travis, Jenkins",
-                "level": "50%"
+                "level": "50%",
+                "levelColor": "warning"
             },
             {
                 "names": "GCP, AWS",
-                "level": "40%"
+                "level": "40%",
+                "levelColor": "danger"
             }
         ]
     }

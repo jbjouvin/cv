@@ -35,12 +35,18 @@ function addTechSkills(techSkills, techSkillsId) {
 
     // AJout tech skill
     techSkills.forEach(function (echoTechSkill) {
-        var techSkillElt = document.createElement("h6");
-        techSkillElt.className = "progress";
+        var techSkillEltDiv = document.createElement("div");
+        techSkillEltDiv.className = "progress";
+
+        var techSkillElt = document.createElement("progress-bar");
+        techSkillElt.className = "progress-bar" +  " " + "bg-" + echoTechSkill.levelColor;
+        techSkillElt.setAttribute("role","progressbar");
         techSkillElt.textContent = echoTechSkill.names;
         techSkillElt.style = "width:" + echoTechSkill.level;
-
-        workDiv.appendChild(techSkillElt);
+        
+        techSkillEltDiv.appendChild(techSkillElt)
+        
+        workDiv.appendChild(techSkillEltDiv);
     })
 }
 
