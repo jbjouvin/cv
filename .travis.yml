@@ -1,7 +1,7 @@
 langage: python
   - "3.6"
 install:
-  - pip3 install awscli
+  - sudo pip install awscli
 script:
   - make build
 deploy:
