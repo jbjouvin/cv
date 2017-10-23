@@ -55,13 +55,16 @@
     margin-right: 10px;
 }
 
+.bg-success{
+    background-color: #0170a3 !important;
+}
 
 .bg-warning {
-    background-color: #55a066 !important;
+    background-color: #3686aa !important;
 }
 
 .bg-danger {
-    background-color: #74997c !important;
+    background-color: #6998ad !important;
 }
 
 
