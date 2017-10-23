@@ -14,4 +14,4 @@
 Travis is here only to publish to AWS:S3 (using node => Travis langage)
 
 # In action
-to see an example: [My Resume](https://www.jbjouvin.pro)
+to see an example: [My Resume](http://www.jbjouvin.pro)
