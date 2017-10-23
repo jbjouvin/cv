@@ -1,5 +1,10 @@
+sudo: required
+
 langage: python
   - "3.6"
+
+cache: pip
+
 deploy:
   provider: s3
   access_key_id: "$AWS_ACCESS_KEY_ID"
