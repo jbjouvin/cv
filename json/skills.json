@@ -45,7 +45,7 @@
                 "level": "80%"
             },
             {
-                "names": "Python, Shell, bash, sed, regexp",
+                "names": "Python, Shell, Javascript, sed, regexp",
                 "level": "80%"
             },
             {
@@ -54,19 +54,19 @@
             },
             {
                 "names": "SVN, GIT",
-                "level": "70%"
+                "level": "80%"
             },
             {
-                "names": "Docker, VMware, MongoDB",
+                "names": "Docker, MongoDB",
                 "level": "55%"
             },
             {
-                "names": "Hadoop, AWS",
-                "level": "40%"
+                "names": "Travis, Jenkins",
+                "level": "50%"
             },
             {
-                "names": "Java",
-                "level": "35%"
+                "names": "GCP, AWS",
+                "level": "40%"
             }
         ]
     }
