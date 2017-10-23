@@ -1,7 +1,7 @@
 langage: python
   - "3.6"
 install:
-  - pip install awscli
+  - pip3 install awscli
 script:
   - make build
 deploy:
@@ -10,4 +10,5 @@ deploy:
   secret_access_key: "$AWS_SECRET_ACCESS_KEY"
   bucket: jbjouvin.pro
   skip_cleanup: true
+  local_dir: build
   region: eu-west-1
