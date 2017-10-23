@@ -1,0 +1,19 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "cv/resume",
+  "main": "index.html",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbjouvin/cv.git"
+  },
+  "author": "jbjouvin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jbjouvin/cv/issues"
+  },
+  "homepage": "https://github.com/jbjouvin/cv#readme"
+}
