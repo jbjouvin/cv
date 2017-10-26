@@ -4,7 +4,7 @@ function initLoisirs(loisirs) {
         list = loisir.list;
 
         var workDiv = document.getElementById("loisirs");
-
+        
         var loisirElt = document.createElement("h5");
         loisirElt.className = "loisir"
 
