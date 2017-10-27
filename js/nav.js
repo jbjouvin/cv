@@ -17,22 +17,25 @@ function createMenu() {
     menuDropdownExp.appendChild(menuLoisirs);
 
     // experiences
+    console.log(document)
     var expDivs = document.getElementById("experiences").getElementsByClassName("col-s12");
     var menuDropdownExp = document.getElementById("dropdownExperience")
-    
+
     for (var i = 0; i < expDivs.length; i++) {
-        
+
         var echoExpMenuLink = document.createElement("a");
-        echoExpMenuLink.href = "#"+expDivs[i].id;
+        echoExpMenuLink.href = "#" + expDivs[i].id;
         echoExpMenuLink.className = "dropdown-item";
         echoExpMenuLink.textContent = expDivs[i].id;
-        
+
         menuDropdownExp.appendChild(echoExpMenuLink)
 
     }
 }
 
+document.onreadystatechange = function () {
+    if (document.readyState === "complete") {
+        createMenu();
+    }
 
-$.getJSON("json/person.json", function () {
-    createMenu();
-});
+};
