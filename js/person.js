@@ -104,13 +104,17 @@ function initPerson(person) {
 
 }
 
-makeRequest = async () => {
+
+// MAIN
+
+async function makeRequest(){
     try {
-        personData = await($.getJSON("json/person.json"));
-        initPerson(personData.person)
+        personData = await ($.getJSON("json/person.json"));
+        initPerson(personData.person);
     } catch (err) {
-        console.log(err)
+        console.log(err);
     }
 }
 
-makeRequest()
+
+makeRequest();
