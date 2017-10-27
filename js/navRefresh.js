@@ -14,7 +14,7 @@ setInterval(function () {
         hasScrolled();
         didScroll = false;
     }
-}, 250);
+}, 100);
 
 function hasScrolled() {
     var navbarHeight = $("#navMenuResume").height();

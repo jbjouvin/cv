@@ -131,6 +131,6 @@ document.onreadystatechange = function () {
     if (document.readyState === "complete") {
         setTimeout(function () {
             createMenu()
-        }, 1000);
+        }, 10);
     }
 };
