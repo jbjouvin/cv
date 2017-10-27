@@ -31,7 +31,14 @@ function initLoisirs(loisirs) {
 };
 
 // MAIN
-// Lecture du fichier loisirs.json
-$.getJSON("json/loisirs.json", function (loisirsData) {
-    initLoisirs(loisirsData.loisirs);
-});
+
+makeRequest = async () => {
+    try {
+        loisirsData = await($.getJSON("json/loisirs.json"));
+        initLoisirs(loisirsData.loisirs)
+    } catch (err) {
+        console.log(err)
+    }
+}
+
+makeRequest()

@@ -1,5 +1,5 @@
 function initFormation(formations) {
-    formations.forEach(function (formation){
+    formations.forEach(function (formation) {
         var formationName = formation.formationName;
         var school = formation.school;
         var schoolLogo = formation.schoolLogo;
@@ -7,7 +7,7 @@ function initFormation(formations) {
         var date = formation.date;
 
         var workDiv = document.getElementById("formations");
-        
+
         var formationElt = document.createElement("div");
         formationElt.className = "col-12 formation"
 
@@ -15,9 +15,9 @@ function initFormation(formations) {
         var titleFormationEltStrong = document.createElement("b");
         titleFormationEltStrong.textContent = formationName;
         titleFormationElt.appendChild(titleFormationEltStrong);
-        
+
         var titleFormationEltSchool = document.createElement("a");
-        titleFormationEltSchool.textContent = " " + school + ',' ;
+        titleFormationEltSchool.textContent = " " + school + ',';
         titleFormationElt.appendChild(titleFormationEltSchool);
 
         var schoolLogoElt = document.createElement("img");
@@ -33,14 +33,22 @@ function initFormation(formations) {
 
         formationElt.appendChild(titleFormationElt);
         formationElt.appendChild(dateElt);
-        
+
         workDiv.appendChild(formationElt);
 
     })
 }
 
+
 // MAIN
-// Lecture du fichier formations.json
-$.getJSON("json/formations.json", function (formationData) {
-    initFormation(formationData.formations)
-});
+
+makeRequest = async () => {
+    try {
+        formationData = await($.getJSON("json/formations.json"));
+        initFormation(formationData.formations)
+    } catch (err) {
+        console.log(err)
+    }
+}
+
+makeRequest()
