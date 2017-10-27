@@ -17,7 +17,6 @@ function createMenu() {
     menuDropdownExp.appendChild(menuLoisirs);
 
     // experiences
-    console.log(document)
     var expDivs = document.getElementById("experiences").getElementsByClassName("col-s12");
     var menuDropdownExp = document.getElementById("dropdownExperience")
 
