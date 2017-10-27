@@ -1,7 +1,7 @@
 // Hide Header on on scroll down
 var didScroll;
 var lastScrollTop = 0;
-var delta = 5;
+var delta = 2;
 
 
 $(window).scroll(function (event) {
@@ -29,11 +29,13 @@ function hasScrolled() {
 
     if (st > lastScrollTop && st > navbarHeight) {
         // Scroll Down
-        $('#navMenuResume').removeClass('nav-down').addClass('nav-up');
+        // $('#navMenuResume').removeClass('nav-down').addClass('nav-up');
+        $('#navMenuResume').slideUp("fast");
     } else {
         // Scroll Up
         if (st + $(window).height() < $(document).height()) {
-            $('#navMenuResume').removeClass('nav-up').addClass('nav-down');
+            // $('#navMenuResume').removeClass('nav-up').addClass('nav-down');
+            $('#navMenuResume').slideDown("fast");
         }
     }
 
