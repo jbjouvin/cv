@@ -2,9 +2,11 @@
 var didScroll;
 var lastScrollTop = 0;
 var delta = 5;
-var navbarHeight = $("#navMenuResume").height();
+
+
 $(window).scroll(function (event) {
     didScroll = true;
+    
 });
 
 setInterval(function () {
@@ -15,6 +17,7 @@ setInterval(function () {
 }, 250);
 
 function hasScrolled() {
+    var navbarHeight = $("#navMenuResume").height();
     var st = $(this).scrollTop();
 
     // Make sure they scroll more than delta
