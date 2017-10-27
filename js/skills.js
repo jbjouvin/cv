@@ -1,4 +1,3 @@
-
 function addSkills(skills, skillsId) {
     workDiv = document.getElementById(skillsId)
 
@@ -65,15 +64,17 @@ function initTechSkills(techSkills) {
     addTechSkills(techSkillsItem, techSkillsId);
 }
 
-// MAIN
-// Lecture du fichier person.json
-$.getJSON("json/skills.json", function (skillsData) {
-    //console.log(skillsData);
-    // console.log(Object.keys(data.work).length);
-    // console.log(data.work[0].company);
-    skillsData.skills.forEach(function (skills) {
-        initSkills(skills)
-    });
-    initTechSkills(skillsData.techSkills);
-});
 
+makeRequest = async () => {
+    try {
+        skillsData = await($.getJSON("json/skills.json"));
+        skillsData.skills.forEach(function (skills) {
+            initSkills(skills)
+        });
+        initTechSkills(skillsData.techSkills);
+    } catch (err) {
+        console.log(err)
+    }
+}
+
+makeRequest()

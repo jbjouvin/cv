@@ -87,7 +87,7 @@ function initPerson(person) {
     adminDiv.appendChild(document.createElement("br"));
 
     // fork this cv template:
-    
+
 
     // GitLab
     // fa fa-gitlab
@@ -100,17 +100,17 @@ function initPerson(person) {
     adminDiv.appendChild(gitlabElt);
     adminDiv.appendChild(document.createElement("br"));
 
-    
+
 
 }
 
+makeRequest = async () => {
+    try {
+        personData = await($.getJSON("json/person.json"));
+        initPerson(personData.person)
+    } catch (err) {
+        console.log(err)
+    }
+}
 
-// MAIN
-// Lecture du fichier person.json
-$.getJSON("json/person.json", function (personData) {
-    //console.log(personData);
-    // console.log(Object.keys(data.work).length);
-    // console.log(data.work[0].company);
-    initPerson(personData.person);
-});
-
+makeRequest()

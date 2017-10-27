@@ -1,4 +1,3 @@
-
 function addTechnicalEnv(technicalEnv, title) {
     workDiv = document.getElementById(title);
     var techEnv = document.createElement("h5");
@@ -112,12 +111,15 @@ function addExp(work) {
 
 // MAIN
 
-// Lecture du fichier xp.json
-$.getJSON("json/xp.json", function (data) {
-    // console.log(data);
-    // console.log(Object.keys(data.work).length);
-    // console.log(data.work[0].company);
-    data.work.forEach(function (work) {
-        addExp(work);
-    });
-});
+makeRequest = async () => {
+    try {
+        xpData = await($.getJSON("json/xp.json"));
+        xpData.work.forEach(function (work) {
+            addExp(work);
+        });
+    } catch (err) {
+        console.log(err)
+    }
+}
+
+makeRequest()
