@@ -1,94 +1,93 @@
-body{
-    padding-top:65px;
+body {
+  padding-top: 65px;
 }
 
-.progress{
-    margin-bottom: 7px;
+.progress {
+  margin-bottom: 7px;
 }
 
-.titre-long{
-    margin-bottom: 25px;
+.titre-long {
+  margin-bottom: 25px;
 }
 
-.mission-title{
-    margin: 18px;
+.mission-title {
+  margin: 18px;
 }
 
-.mission-task{
-    margin-left: 50px;
+.mission-task {
+  margin-left: 50px;
 }
 
-.mini-task{
-    margin-left: 65px;
+.mini-task {
+  margin-left: 65px;
 }
 
-.tech-env-title{
-    margin: 18px;
+.tech-env-title {
+  margin: 18px;
 }
 
-.technical-pastille{
-    margin-right: 5px;
+.technical-pastille {
+  margin-right: 5px;
 }
 
-#header{
-    margin-top: 20px;
+#header {
+  margin-top: 20px;
 }
 
-.skill{
-    margin-left: 5px;
+.skill {
+  margin-left: 5px;
 }
 
-.formation{
-    margin: 20px;
+.formation {
+  margin: 20px;
 }
 
-.loisir{
-    margin: 20px;
+.loisir {
+  margin: 20px;
 }
 
-.loisir-list{
-    margin: 20px;
+.loisir-list {
+  margin: 20px;
 }
 
-.loisir-item{
-    font-size: 18px;
-    margin-left: 20px;
+.loisir-item {
+  font-size: 18px;
+  margin-left: 20px;
 }
 
 .fa {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
-.bg-success{
-    background-color: #0170a3 !important;
+.bg-success {
+  background-color: #0170a3 !important;
 }
 
 .bg-warning {
-    background-color: #3686aa !important;
+  background-color: #3686aa !important;
 }
 
 .bg-danger {
-    background-color: #6998ad !important;
+  background-color: #6998ad !important;
 }
-
 
 /* 4 */
 
-#etudesConception{
-    margin-bottom: 20px;
+#etudesConception {
+  margin-bottom: 20px;
 }
-#competencesTechniques{
-    margin-bottom: 20px;
+#competencesTechniques {
+  margin-bottom: 20px;
 }
-#expertiseTechnique{
-    margin-bottom: 20px;
+#expertiseTechnique {
+  margin-bottom: 20px;
 }
-#assistanceFormation{
-    margin-bottom: 20px;
+#assistanceFormation {
+  margin-bottom: 20px;
 }
 
 /*Hide menu when scroll down*/
 
 .nav-up {
-    display: none;
+  display: none;
 }

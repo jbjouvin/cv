@@ -1,14 +1,15 @@
 {
-    "person": {
-        "name": "Jean-Baptiste",
-        "lastname": "Jouvin",
-        "linkedin": "https://fr.linkedin.com/in/jean-baptiste-jouvin-35773258",
-        "github": "https://github.com/jbjouvin",
-        "gitlab": "https://gitlab.com/jbjouvin",
-        "avatar": "https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAe7AAAAJGNkYTA1YTJlLTE3MTItNGMzMC05ZTYyLWE5ZDM0ZDg0MDFlNQ.jpg",
-        "mail": "jb.jouvin@gmail.com",
-        "city": "Paris",
-        "country": "France",
-        "jobTitle": "Solutions Analyst / Business Analyst"
-    }
+  "person": {
+    "name": "Jean-Baptiste",
+    "lastname": "Jouvin",
+    "linkedin": "https://fr.linkedin.com/in/jean-baptiste-jouvin-35773258",
+    "github": "https://github.com/jbjouvin",
+    "gitlab": "https://gitlab.com/jbjouvin",
+    "avatar":
+      "https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAe7AAAAJGNkYTA1YTJlLTE3MTItNGMzMC05ZTYyLWE5ZDM0ZDg0MDFlNQ.jpg",
+    "mail": "jb.jouvin@gmail.com",
+    "city": "Paris",
+    "country": "France",
+    "jobTitle": "Solutions Analyst / Business Analyst"
+  }
 }

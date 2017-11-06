@@ -1,346 +1,356 @@
 {
-    "work": [
+  "work": [
+    {
+      "title": "Veolia2017",
+      "titleLong":
+        "Consultant technique sur progiciel de gestion de trésorerie",
+      "company": "Veolia",
+      "companyLink": "http://www.veolia.fr",
+      "companyLogo":
+        "https://www.veolia.fr/sites/g/files/dvc141/f/assets/images/2015/05/Logo_Veolia_1.jpg",
+      "place": "Paris / Aubervilliers",
+      "dateStart": "04-2015",
+      "dateEnd": "A ce jour",
+      "missions": [
         {
-            "title": "Veolia2017",
-            "titleLong": "Consultant technique sur progiciel de gestion de trésorerie",
-            "company": "Veolia",
-            "companyLink": "http://www.veolia.fr",
-            "companyLogo": "https://www.veolia.fr/sites/g/files/dvc141/f/assets/images/2015/05/Logo_Veolia_1.jpg",
-            "place": "Paris / Aubervilliers",
-            "dateStart": "04-2015",
-            "dateEnd": "A ce jour",
-            "missions": [
-                {
-                    "title": "Solutions Analyst / Mise en Oeuvre",
-                    "tasks": [
-                        "Développement Python permettant l’injection de transactions en masse via fichier csv, pour déploiement nouvelles entités",
-                        "Migration serveur BugZilla win => linux",
-                        "Création export comptable (xml, xsl) vers SAP, SAGE",
-                        "Accompagnement à l’externalisation du service bureau (Next => Datalog)",
-                        "Création export référentiel csv (Banque, Entités, Compte) vers Datalog",
-                        "Conduite projet mise en place FxAll en partenariat avec Reuters et WSS",
-                        "Accompagnement à l’externalisation de l’hébergement de la suite",
-                        "Atelier de mise en place avec l'éditeur (Infra, réseaux, exploitation)"
-                    ]
-                },
-                {
-                    "title": "Evolution / Developpement continu",
-                    "tasks": [
-                        "Développement, packaging, intégration, livraison",
-                        "Création de proc. stockées pour l’optimisation de rapport",
-                        "Gestion xml framework pour mise en place flux bancaire",
-                        "Gestion du change control des différentes évolutions (svn)",
-                        "Améliorations / Analyse SQL (création : vue, index, trigger)",
-                        "Création de rapport et d’activité au sein du progiciel WSS"
-                    ]
-                }
-            ],
-            "technicalEnv": [
-                "HP-UX",
-                "Windows server 2003",
-                "tortoise SVN",
-                "Oracle",
-                "Citrix",
-                "Weblogic",
-                "WSS Suite (CMM, TRM, ACM)",
-                "activeMQ",
-                "shell",
-                "python",
-                "perl",
-                "swift alliance",
-                "esiadapter",
-                "ftp",
-                "sqldev",
-                "PL sql"
-            ]
+          "title": "Solutions Analyst / Mise en Oeuvre",
+          "tasks": [
+            "Développement Python permettant l’injection de transactions en masse via fichier csv, pour déploiement nouvelles entités",
+            "Migration serveur BugZilla win => linux",
+            "Création export comptable (xml, xsl) vers SAP, SAGE",
+            "Accompagnement à l’externalisation du service bureau (Next => Datalog)",
+            "Création export référentiel csv (Banque, Entités, Compte) vers Datalog",
+            "Conduite projet mise en place FxAll en partenariat avec Reuters et WSS",
+            "Accompagnement à l’externalisation de l’hébergement de la suite",
+            "Atelier de mise en place avec l'éditeur (Infra, réseaux, exploitation)"
+          ]
         },
         {
-            "title": "Caisse des dépôts",
-            "titleLong": "Consultant Expertise technique et reprise de données",
-            "company": "Caisse des dépôts",
-            "companyLink": "http://www.caissedesdepots.fr",
-            "companyLogo": "https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Logo_groupe_Caisse_des_D%C3%A9p%C3%B4ts.svg/656px-Logo_groupe_Caisse_des_D%C3%A9p%C3%B4ts.svg.png",
-            "place": "Paris",
-            "dateStart": "09-2013",
-            "dateEnd": "03-2015",
-            "missions": [
-                {
-                    "title": "Solutions Analyst",
-                    "tasks": [
-                        "Scripting en Shell pour la « reprise d’antériorité » de :",
-                        {
-                            "miniTasks": [
-                                "Récupération des données du SI existant: MVS, DB2, ORACLE, SYBASE, XML",
-                                "Mise en forme, épuration, bonification des données récupérées",
-                                "Intégration des données (référentiel, dérivation, flux bancaires) dans SGBD ORACLE",
-                                "Comptage / Vérification des données intégrées par rapport à la source (lotissement fonctionnelle)"
-                            ]
-                        },
-                        "Évolution des Transferts de fichiers sécurisé protocole (CFT)",
-                        "Scripting batch pour la mise en forme automatique des données (winscp, excel)",
-                        "Orchestration via Control-M",
-                        "Ecriture et optimisation de performance des requêtes SQL",
-                        "Packaging (SVN) - Mise en place du repository « RA » comprenant la totalité des scripts (KSH, SQL, ENV)",
-                        "Formation à l’utilisation de SVN au sein de l’équipe (approche dev continu)",
-                        "Création de fonction shell implémentés au sein de l’infrastructure CDC",
-                        "Validation de livrable (document technique, produit)"
-                    ]
-                },
-                {
-                    "title": "Business Analyst",
-                    "tasks": [
-                        "Ateliers avec les équipes fonctionnelles (MOA) des informations nécessaires à l’élaboration des règles de migration (par analyse de la source)",
-                        "Analyse de données à migrer",
-                        "Définition de la cinématique de migration des flux",
-                        "Mise en place des règles de migrations des données",
-                        "Assistance MOA à la recette des données",
-                        "Définition des matrices de flux, configuration des outils de transfert de fichier",
-                        "Documentation et communication en anglais et français."
-                    ]
-                }
-            ],
-            "technicalEnv": [
-                "CFT (SOPRA)",
-                "Unix",
-                "ORACLE",
-                "SYBASE",
-                "Scripts KSH",
-                "MVS",
-                "DB2",
-                "SVN",
-                "Quality center",
-                "JIRA",
-                "Control M.",
-                "Windows 2003 Server",
-                "script vbs",
-                "CITRIX",
-                "CISCO"
-            ]
-        },
-        {
-            "title": "Veolia2013",
-            "titleLong": "Consultant technique au sein du département Veolia IT",
-            "company": "Veolia",
-            "companyLink": "http://www.veolia.fr",
-            "companyLogo": "https://www.veolia.fr/sites/g/files/dvc141/f/assets/images/2015/05/Logo_Veolia_1.jpg",
-            "place": "Nanterre",
-            "dateStart": "08-2011",
-            "dateEnd": "09-2013",
-            "missions": [
-                {
-                    "title": "En charge de l’ensemble des environnements de production, accompagnement d'une montée de version majeure du projet Next (Suite complète Wallstreet Systems, SwiftNet, Reuters) pour la gestion de trésorerie",
-                    "tasks": [
-                        "Réception et intégration des différentes versions de développements fournis par l'éditeur sur l'ensemble de nos plateformes d'intégration.",
-                        "Mise en place d'outils de monitoring sur nos environnements d'intégration afin d'analyser le comportement des versions livrées.",
-                        "Script shell de : contrôle de File System, purge de log applicatif, backup, etc…",
-                        "Mise en place d'un système de rafraichissement de base de données quotidien pour DW (RMAN, SQL, shell)",
-                        "Conduite de projet de mise en place de transfert de flux avec les différentes entités du groupe VEOLIA (Dalkia, transport, eau, etc.)",
-                        "Mise en place d'une base de données à partir de log applicatif à des fins d'analyse de comportement.",
-                        "Création de requêtes SQL de reporting et de contrôle",
-                        "Gestion de Configuration avec les équipes de production VEIT de SVN sur les différents serveurs d’applications (INT, REC, VAL, PROD, etc…)",
-                        "Création de branch SVN pour simplifier la gestion et le suivi des différents environnements.",
-                        "Analyse et mise en place de flux bancaires",
-                        "Compréhension et mise en forme technique auprès de l'éditeur des différents besoins des utilisateurs",
-                        "Rédaction de cahiers des charges de spécifications fonctionnelles et de documents d'exploitation"
-                    ]
-                },
-                {
-                    "title": "TMA / Support niv 2,3 sur le projet Next avant et après montée de version",
-                    "tasks": [
-                        "Accompagnement et formation du support niveau 2,3 sur la nouvelle version du projet Next",
-                        "Rédaction de la procédure d'installation",
-                        "Packaging des livrables auprès de la production",
-                        "Gestion et optimisation de la production (Analyse SQL et renvoi éditeur, config. oracle, config. serveur)",
-                        "Mise en place et gestion des remontées d’alertes et notification aux services concernés via emails",
-                        "Communication et escalade sur incidents et des alertes",
-                        "Gestion technique des plans de secours et de reprise d’activité",
-                        "Prise en main des pratiques ITIL (Gestion du changement)"
-                    ]
-                }
-            ],
-            "technicalEnv": [
-                "HP-UX",
-                "Windows server 2003",
-                "SVN",
-                "Oracle 10g",
-                "Citrix",
-                "IIS",
-                "Weblogic",
-                "Apache",
-                "WSS Suite",
-                "activeMQ",
-                "Java",
-                "shell",
-                "python",
-                "perl",
-                "swift alliance",
-                "esiadapter",
-                "rmds",
-                "samba",
-                "cft",
-                "ftp",
-                "centreon",
-                "sqldev",
-                "sql",
-                "PL sql",
-                "spid",
-                "service-now"
-            ]
-        },
-        {
-            "title": "Accor",
-            "titleLong": "Analyste Exploitation Production",
-            "company": "Accor / Edenred",
-            "companyLink": "http://www.edenred.fr/",
-            "companyLogo": "https://media.licdn.com/mpr/mpr/shrink_200_200/AAEAAQAAAAAAAAMEAAAAJGNjOWFjNGE4LTcxMGItNDlmMS04OWIwLTYwN2JhMzc4MDZjNA.png",
-            "place": "Paris",
-            "dateStart": "09-2007",
-            "dateEnd": "04-2011",
-            "missions": [
-                {
-                    "title": "",
-                    "tasks": [
-                        "Supervision de l’exploitation",
-                        "Supervision des interfaces partenaires",
-                        "Rédaction de procédures d’exploitation",
-                        "Tests, recettes et intégration d’applications en production (hebdo)",
-                        "Surveillance / correction / lancement de batch quotidiennement",
-                        "Configuration et utilisation de Nagios (Monitoring)",
-                        "Extractions SQL de bases clients pour le marketing",
-                        "Adaptation et développement de scripts SQL de corrections",
-                        "Transformation / intégration de fichiers plat",
-                        "Support Applicatif client / Assistance Utilisateurs",
-                        "Support aux équipes de développement pour toutes les actions de livraisons",
-                        "Formation et accompagnement des nouveaux arrivants au sein de la cellule"
-                    ]
-                }
-            ],
-            "technicalEnv": [
-                "Java",
-                "struts",
-                "Hibernate",
-                "eclipse",
-                "debian",
-                "redhat",
-                "tomcat",
-                "apache",
-                "resin",
-                "joomla",
-                "ANT",
-                "XML",
-                "Informix",
-                "Postgres",
-                "Talend",
-                "shell",
-                "XSD XSL",
-                "CFT",
-                "SSH",
-                "GPG",
-                "SFTP",
-                "Crontab",
-                "Quartz",
-                "Squid",
-                "Maven",
-                "Archiva",
-                "Continuum",
-                "Squirell",
-                "pgAdmin"
-            ]
-        },
-        {
-            "title": "Opera",
-            "titleLong": "Technicien d'exploitation",
-            "company": "Opéra National de Paris",
-            "companyLink": "http://www.operadeparis.fr",
-            "companyLogo": "http://www.club-innovation-culture.fr/wp-content/uploads/Logo_Beige_-_Op_ra_national_de_Paris_-_2009.png",
-            "place": "Paris",
-            "dateStart": "01-2005",
-            "dateEnd": "06-2007",
-            "missions": [
-                {
-                    "title": "",
-                    "tasks": [
-                        "Mise à jour, interrogation, lancement de jobs récurrents sur la BDD Opéra.",
-                        "Contrôle du bon fonctionnement des applications sur le serveur",
-                        "Gestion des sauvegardes des systèmes de production",
-                        "Rédaction de procédures d’exploitation",
-                        "Paramétrage du progiciel PLEIADES (Demande, Edi, etc…)",
-                        "Création / modification de requête SQL via Business Object.",
-                        "Développement d’applications en Visual Basic.",
-                        "Support utilisateur d’une macro Excel d’assistance de planification, pour les cadres de l’Opéra.",
-                        "Création de script de publipostage"
-                    ]
-                }
-            ],
-            "technicalEnv": [
-                "Business Object",
-                "Pleiades",
-                "Visual Basic",
-                "Excel",
-                "Word",
-                "telnet"
-            ]
-        },
-        {
-            "title": "Bosch",
-            "titleLong": "Technicien logiciel / électronique embarqué",
-            "company": "Bosch",
-            "companyLink": "http://www.bosch.fr",
-            "companyLogo": "https://www.comparatif-aspirateur.com/wp-content/uploads/2017/02/aspirateur-bosch.jpg",
-            "place": "Saint-Ouen",
-            "dateStart": "09-2001",
-            "dateEnd": "10-2004",
-            "missions": [
-                {
-                    "title": "",
-                    "tasks": [
-                        "Analyse et développement en C/C++ de fonctions moteur pour le Motronic",
-                        "Relecture de code pour Optimisation",
-                        "Tests unitaire et intégration",
-                        "Figeages avant production en série",
-                        "Validations, essais sur banc et véhicules",
-                        "Rédaction de documentations des fonctions",
-                        "Rédactions de méthodologie des tests effectués"
-                    ]
-                }
-            ],
-            "technicalEnv": [
-                "C",
-                "C++",
-                "ASM",
-                "Codewright",
-                "Messplatz Labcar (labo)",
-                "outils/logiciels entreprise"
-            ]
-        },
-        {
-            "title": "towercast",
-            "titleLong": "Stage – Analyste développeur ",
-            "company": "towerCast",
-            "companyLink": "http://www.towercast.fr",
-            "companyLogo": "https://media.glassdoor.com/sqll/1137016/towercast-squarelogo-1456996746574.png",
-            "place": "Paris",
-            "dateStart": "03-2001",
-            "dateEnd": "06-2001",
-            "missions": [
-                {
-                    "title": "",
-                    "tasks": [
-                        "Compréhension et analyse du fonctionnement du système GPS",
-                        "Réception des données NMEA d’un récepteur GPS GARMIN par liaison série RS232",
-                        "Analyse et transformation de la trame de données NMEA.",
-                        "Programmation de la réception des données en Delphi",
-                        "Création d’une interface graphique pour faciliter la lisibilité du récepteur"
-                    ]
-                }
-            ],
-            "technicalEnv": [
-                "Delphi",
-                "Visual Studio",
-                "technologie série RS232",
-                "données GPS NMEA",
-                "Technologie GPS"
-            ]
+          "title": "Evolution / Developpement continu",
+          "tasks": [
+            "Développement, packaging, intégration, livraison",
+            "Création de proc. stockées pour l’optimisation de rapport",
+            "Gestion xml framework pour mise en place flux bancaire",
+            "Gestion du change control des différentes évolutions (svn)",
+            "Améliorations / Analyse SQL (création : vue, index, trigger)",
+            "Création de rapport et d’activité au sein du progiciel WSS"
+          ]
         }
-    ]
+      ],
+      "technicalEnv": [
+        "HP-UX",
+        "Windows server 2003",
+        "tortoise SVN",
+        "Oracle",
+        "Citrix",
+        "Weblogic",
+        "WSS Suite (CMM, TRM, ACM)",
+        "activeMQ",
+        "shell",
+        "python",
+        "perl",
+        "swift alliance",
+        "esiadapter",
+        "ftp",
+        "sqldev",
+        "PL sql"
+      ]
+    },
+    {
+      "title": "Caisse des dépôts",
+      "titleLong": "Consultant Expertise technique et reprise de données",
+      "company": "Caisse des dépôts",
+      "companyLink": "http://www.caissedesdepots.fr",
+      "companyLogo":
+        "https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Logo_groupe_Caisse_des_D%C3%A9p%C3%B4ts.svg/656px-Logo_groupe_Caisse_des_D%C3%A9p%C3%B4ts.svg.png",
+      "place": "Paris",
+      "dateStart": "09-2013",
+      "dateEnd": "03-2015",
+      "missions": [
+        {
+          "title": "Solutions Analyst",
+          "tasks": [
+            "Scripting en Shell pour la « reprise d’antériorité » de :",
+            {
+              "miniTasks": [
+                "Récupération des données du SI existant: MVS, DB2, ORACLE, SYBASE, XML",
+                "Mise en forme, épuration, bonification des données récupérées",
+                "Intégration des données (référentiel, dérivation, flux bancaires) dans SGBD ORACLE",
+                "Comptage / Vérification des données intégrées par rapport à la source (lotissement fonctionnelle)"
+              ]
+            },
+            "Évolution des Transferts de fichiers sécurisé protocole (CFT)",
+            "Scripting batch pour la mise en forme automatique des données (winscp, excel)",
+            "Orchestration via Control-M",
+            "Ecriture et optimisation de performance des requêtes SQL",
+            "Packaging (SVN) - Mise en place du repository « RA » comprenant la totalité des scripts (KSH, SQL, ENV)",
+            "Formation à l’utilisation de SVN au sein de l’équipe (approche dev continu)",
+            "Création de fonction shell implémentés au sein de l’infrastructure CDC",
+            "Validation de livrable (document technique, produit)"
+          ]
+        },
+        {
+          "title": "Business Analyst",
+          "tasks": [
+            "Ateliers avec les équipes fonctionnelles (MOA) des informations nécessaires à l’élaboration des règles de migration (par analyse de la source)",
+            "Analyse de données à migrer",
+            "Définition de la cinématique de migration des flux",
+            "Mise en place des règles de migrations des données",
+            "Assistance MOA à la recette des données",
+            "Définition des matrices de flux, configuration des outils de transfert de fichier",
+            "Documentation et communication en anglais et français."
+          ]
+        }
+      ],
+      "technicalEnv": [
+        "CFT (SOPRA)",
+        "Unix",
+        "ORACLE",
+        "SYBASE",
+        "Scripts KSH",
+        "MVS",
+        "DB2",
+        "SVN",
+        "Quality center",
+        "JIRA",
+        "Control M.",
+        "Windows 2003 Server",
+        "script vbs",
+        "CITRIX",
+        "CISCO"
+      ]
+    },
+    {
+      "title": "Veolia2013",
+      "titleLong": "Consultant technique au sein du département Veolia IT",
+      "company": "Veolia",
+      "companyLink": "http://www.veolia.fr",
+      "companyLogo":
+        "https://www.veolia.fr/sites/g/files/dvc141/f/assets/images/2015/05/Logo_Veolia_1.jpg",
+      "place": "Nanterre",
+      "dateStart": "08-2011",
+      "dateEnd": "09-2013",
+      "missions": [
+        {
+          "title":
+            "En charge de l’ensemble des environnements de production, accompagnement d'une montée de version majeure du projet Next (Suite complète Wallstreet Systems, SwiftNet, Reuters) pour la gestion de trésorerie",
+          "tasks": [
+            "Réception et intégration des différentes versions de développements fournis par l'éditeur sur l'ensemble de nos plateformes d'intégration.",
+            "Mise en place d'outils de monitoring sur nos environnements d'intégration afin d'analyser le comportement des versions livrées.",
+            "Script shell de : contrôle de File System, purge de log applicatif, backup, etc…",
+            "Mise en place d'un système de rafraichissement de base de données quotidien pour DW (RMAN, SQL, shell)",
+            "Conduite de projet de mise en place de transfert de flux avec les différentes entités du groupe VEOLIA (Dalkia, transport, eau, etc.)",
+            "Mise en place d'une base de données à partir de log applicatif à des fins d'analyse de comportement.",
+            "Création de requêtes SQL de reporting et de contrôle",
+            "Gestion de Configuration avec les équipes de production VEIT de SVN sur les différents serveurs d’applications (INT, REC, VAL, PROD, etc…)",
+            "Création de branch SVN pour simplifier la gestion et le suivi des différents environnements.",
+            "Analyse et mise en place de flux bancaires",
+            "Compréhension et mise en forme technique auprès de l'éditeur des différents besoins des utilisateurs",
+            "Rédaction de cahiers des charges de spécifications fonctionnelles et de documents d'exploitation"
+          ]
+        },
+        {
+          "title":
+            "TMA / Support niv 2,3 sur le projet Next avant et après montée de version",
+          "tasks": [
+            "Accompagnement et formation du support niveau 2,3 sur la nouvelle version du projet Next",
+            "Rédaction de la procédure d'installation",
+            "Packaging des livrables auprès de la production",
+            "Gestion et optimisation de la production (Analyse SQL et renvoi éditeur, config. oracle, config. serveur)",
+            "Mise en place et gestion des remontées d’alertes et notification aux services concernés via emails",
+            "Communication et escalade sur incidents et des alertes",
+            "Gestion technique des plans de secours et de reprise d’activité",
+            "Prise en main des pratiques ITIL (Gestion du changement)"
+          ]
+        }
+      ],
+      "technicalEnv": [
+        "HP-UX",
+        "Windows server 2003",
+        "SVN",
+        "Oracle 10g",
+        "Citrix",
+        "IIS",
+        "Weblogic",
+        "Apache",
+        "WSS Suite",
+        "activeMQ",
+        "Java",
+        "shell",
+        "python",
+        "perl",
+        "swift alliance",
+        "esiadapter",
+        "rmds",
+        "samba",
+        "cft",
+        "ftp",
+        "centreon",
+        "sqldev",
+        "sql",
+        "PL sql",
+        "spid",
+        "service-now"
+      ]
+    },
+    {
+      "title": "Accor",
+      "titleLong": "Analyste Exploitation Production",
+      "company": "Accor / Edenred",
+      "companyLink": "http://www.edenred.fr/",
+      "companyLogo":
+        "https://media.licdn.com/mpr/mpr/shrink_200_200/AAEAAQAAAAAAAAMEAAAAJGNjOWFjNGE4LTcxMGItNDlmMS04OWIwLTYwN2JhMzc4MDZjNA.png",
+      "place": "Paris",
+      "dateStart": "09-2007",
+      "dateEnd": "04-2011",
+      "missions": [
+        {
+          "title": "",
+          "tasks": [
+            "Supervision de l’exploitation",
+            "Supervision des interfaces partenaires",
+            "Rédaction de procédures d’exploitation",
+            "Tests, recettes et intégration d’applications en production (hebdo)",
+            "Surveillance / correction / lancement de batch quotidiennement",
+            "Configuration et utilisation de Nagios (Monitoring)",
+            "Extractions SQL de bases clients pour le marketing",
+            "Adaptation et développement de scripts SQL de corrections",
+            "Transformation / intégration de fichiers plat",
+            "Support Applicatif client / Assistance Utilisateurs",
+            "Support aux équipes de développement pour toutes les actions de livraisons",
+            "Formation et accompagnement des nouveaux arrivants au sein de la cellule"
+          ]
+        }
+      ],
+      "technicalEnv": [
+        "Java",
+        "struts",
+        "Hibernate",
+        "eclipse",
+        "debian",
+        "redhat",
+        "tomcat",
+        "apache",
+        "resin",
+        "joomla",
+        "ANT",
+        "XML",
+        "Informix",
+        "Postgres",
+        "Talend",
+        "shell",
+        "XSD XSL",
+        "CFT",
+        "SSH",
+        "GPG",
+        "SFTP",
+        "Crontab",
+        "Quartz",
+        "Squid",
+        "Maven",
+        "Archiva",
+        "Continuum",
+        "Squirell",
+        "pgAdmin"
+      ]
+    },
+    {
+      "title": "Opera",
+      "titleLong": "Technicien d'exploitation",
+      "company": "Opéra National de Paris",
+      "companyLink": "http://www.operadeparis.fr",
+      "companyLogo":
+        "http://www.club-innovation-culture.fr/wp-content/uploads/Logo_Beige_-_Op_ra_national_de_Paris_-_2009.png",
+      "place": "Paris",
+      "dateStart": "01-2005",
+      "dateEnd": "06-2007",
+      "missions": [
+        {
+          "title": "",
+          "tasks": [
+            "Mise à jour, interrogation, lancement de jobs récurrents sur la BDD Opéra.",
+            "Contrôle du bon fonctionnement des applications sur le serveur",
+            "Gestion des sauvegardes des systèmes de production",
+            "Rédaction de procédures d’exploitation",
+            "Paramétrage du progiciel PLEIADES (Demande, Edi, etc…)",
+            "Création / modification de requête SQL via Business Object.",
+            "Développement d’applications en Visual Basic.",
+            "Support utilisateur d’une macro Excel d’assistance de planification, pour les cadres de l’Opéra.",
+            "Création de script de publipostage"
+          ]
+        }
+      ],
+      "technicalEnv": [
+        "Business Object",
+        "Pleiades",
+        "Visual Basic",
+        "Excel",
+        "Word",
+        "telnet"
+      ]
+    },
+    {
+      "title": "Bosch",
+      "titleLong": "Technicien logiciel / électronique embarqué",
+      "company": "Bosch",
+      "companyLink": "http://www.bosch.fr",
+      "companyLogo":
+        "https://www.comparatif-aspirateur.com/wp-content/uploads/2017/02/aspirateur-bosch.jpg",
+      "place": "Saint-Ouen",
+      "dateStart": "09-2001",
+      "dateEnd": "10-2004",
+      "missions": [
+        {
+          "title": "",
+          "tasks": [
+            "Analyse et développement en C/C++ de fonctions moteur pour le Motronic",
+            "Relecture de code pour Optimisation",
+            "Tests unitaire et intégration",
+            "Figeages avant production en série",
+            "Validations, essais sur banc et véhicules",
+            "Rédaction de documentations des fonctions",
+            "Rédactions de méthodologie des tests effectués"
+          ]
+        }
+      ],
+      "technicalEnv": [
+        "C",
+        "C++",
+        "ASM",
+        "Codewright",
+        "Messplatz Labcar (labo)",
+        "outils/logiciels entreprise"
+      ]
+    },
+    {
+      "title": "towercast",
+      "titleLong": "Stage – Analyste développeur ",
+      "company": "towerCast",
+      "companyLink": "http://www.towercast.fr",
+      "companyLogo":
+        "https://media.glassdoor.com/sqll/1137016/towercast-squarelogo-1456996746574.png",
+      "place": "Paris",
+      "dateStart": "03-2001",
+      "dateEnd": "06-2001",
+      "missions": [
+        {
+          "title": "",
+          "tasks": [
+            "Compréhension et analyse du fonctionnement du système GPS",
+            "Réception des données NMEA d’un récepteur GPS GARMIN par liaison série RS232",
+            "Analyse et transformation de la trame de données NMEA.",
+            "Programmation de la réception des données en Delphi",
+            "Création d’une interface graphique pour faciliter la lisibilité du récepteur"
+          ]
+        }
+      ],
+      "technicalEnv": [
+        "Delphi",
+        "Visual Studio",
+        "technologie série RS232",
+        "données GPS NMEA",
+        "Technologie GPS"
+      ]
+    }
+  ]
 }

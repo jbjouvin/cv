@@ -1,21 +1,17 @@
 {
-    "title": "",
-    "titleLong": "",
-    "company": "",
-    "companyLink": "",
-    "companyLogo": "",
-    "place": "",
-    "dateStart": "",
-    "dateEnd": "",
-    "missions": [
-        {
-            "title": "",
-            "tasks": [
-                ""
-            ]
-        }
-    ],
-    "technicalEnv": [
-        ""
-    ]
+  "title": "",
+  "titleLong": "",
+  "company": "",
+  "companyLink": "",
+  "companyLogo": "",
+  "place": "",
+  "dateStart": "",
+  "dateEnd": "",
+  "missions": [
+    {
+      "title": "",
+      "tasks": [""]
+    }
+  ],
+  "technicalEnv": [""]
 }

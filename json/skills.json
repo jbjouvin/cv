@@ -1,80 +1,80 @@
 {
-    "skills": [
-        {
-            "title": "Etudes Conception",
-            "id": "etudesConception",
-            "skillItem": [
-                "Assistance à Maîtrise d’Ouvrage",
-                "Conduite projet",
-                "Maîtrise d’œuvre, conception, réalisation",
-                "Conduite réunions",
-                "Recueil et définition du besoin",
-                "Rédaction des cahiers des charges et spéc. fonctionnelles",
-                "Rédaction de Chronogrammes et plans de bascule"
-            ]
-        },
-        {
-            "title": "Expertise Technique",
-            "id": "expertiseTechnique",
-            "skillItem": [
-                "Développement, POO, UML, Agile",
-                "SGBD Infrastructure",
-                "Intégration, Déploiement",
-                "Packaging, SVN",
-                "Support technique niv.3",
-                "Exploitation"
-            ]
-        },
-        {
-            "title": "Assistance Formation",
-            "id": "assistanceFormation",
-            "skillItem": [
-                "Support fonctionnel",
-                "Assistance à la Recette",
-                "Formation et Conseils aux utilisateurs",
-                "Rédaction de documentations et modes opératoires"
-            ]
-        }
-    ],
-    "techSkills": {
-        "title": "Compétences Techniques",
-        "id": "competencesTechniques",
-        "skillItem": [
-            {
-                "names": "SQL, PL SQL, Oracle, Mysql, Postgres",
-                "level": "90%",
-                "levelColor": "success"
-            },
-            {
-                "names": "Python, Shell, Javascript, sed, regexp",
-                "level": "85%",
-                "levelColor": "success"
-            },
-            {
-                "names": "SVN, GIT",
-                "level": "80%",
-                "levelColor": "success"
-            },
-            {
-                "names": "Apache, Nginx, Tomcat, Weblogic",
-                "level": "60%",
-                "levelColor": "warning"
-            },
-            {
-                "names": "Docker, MongoDB",
-                "level": "55%",
-                "levelColor": "warning"
-            },
-            {
-                "names": "Travis, Jenkins",
-                "level": "50%",
-                "levelColor": "warning"
-            },
-            {
-                "names": "GCP, AWS",
-                "level": "40%",
-                "levelColor": "danger"
-            }
-        ]
+  "skills": [
+    {
+      "title": "Etudes Conception",
+      "id": "etudesConception",
+      "skillItem": [
+        "Assistance à Maîtrise d’Ouvrage",
+        "Conduite projet",
+        "Maîtrise d’œuvre, conception, réalisation",
+        "Conduite réunions",
+        "Recueil et définition du besoin",
+        "Rédaction des cahiers des charges et spéc. fonctionnelles",
+        "Rédaction de Chronogrammes et plans de bascule"
+      ]
+    },
+    {
+      "title": "Expertise Technique",
+      "id": "expertiseTechnique",
+      "skillItem": [
+        "Développement, POO, UML, Agile",
+        "SGBD Infrastructure",
+        "Intégration, Déploiement",
+        "Packaging, SVN",
+        "Support technique niv.3",
+        "Exploitation"
+      ]
+    },
+    {
+      "title": "Assistance Formation",
+      "id": "assistanceFormation",
+      "skillItem": [
+        "Support fonctionnel",
+        "Assistance à la Recette",
+        "Formation et Conseils aux utilisateurs",
+        "Rédaction de documentations et modes opératoires"
+      ]
     }
+  ],
+  "techSkills": {
+    "title": "Compétences Techniques",
+    "id": "competencesTechniques",
+    "skillItem": [
+      {
+        "names": "SQL, PL SQL, Oracle, Mysql, Postgres",
+        "level": "90%",
+        "levelColor": "success"
+      },
+      {
+        "names": "Python, Shell, Javascript, sed, regexp",
+        "level": "85%",
+        "levelColor": "success"
+      },
+      {
+        "names": "SVN, GIT",
+        "level": "80%",
+        "levelColor": "success"
+      },
+      {
+        "names": "Apache, Nginx, Tomcat, Weblogic",
+        "level": "60%",
+        "levelColor": "warning"
+      },
+      {
+        "names": "Docker, MongoDB",
+        "level": "55%",
+        "levelColor": "warning"
+      },
+      {
+        "names": "Travis, Jenkins",
+        "level": "50%",
+        "levelColor": "warning"
+      },
+      {
+        "names": "GCP, AWS",
+        "level": "40%",
+        "levelColor": "danger"
+      }
+    ]
+  }
 }

@@ -1,13 +1,8 @@
 {
-    "loisirs": [
-        {
-            "type": "Sports",
-            "list": [
-                "Basket",
-                "Boxe Anglaise",
-                "Vélo",
-                "Running"
-            ]
-        }
-    ]
+  "loisirs": [
+    {
+      "type": "Sports",
+      "list": ["Basket", "Boxe Anglaise", "Vélo", "Running"]
+    }
+  ]
 }
