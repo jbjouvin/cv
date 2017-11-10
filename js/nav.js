@@ -3,7 +3,7 @@ function createMenu() {
 
   var menuSquelette = document.createElement("nav");
   menuSquelette.className =
-    "navbar fixed-top navbar-expand-lg navbar-light bg-light nav-down";
+    "navbar fixed-top navbar-expand-lg navbar-light bg-light nav-down d-print-none";
   menuSquelette.id = "navMenuResume";
 
   // Gestion bouton responsive

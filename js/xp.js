@@ -101,7 +101,9 @@ function addExp(work) {
 
   //Ajout technicalEnv
   addTechnicalEnv(work.technicalEnv, work.title);
-  workDivElt.appendChild(document.createElement("hr"));
+  var hrElt = document.createElement("hr");
+  hrElt.className = "d-print-none";
+  workDivElt.appendChild(hrElt);
 }
 
 // MAIN

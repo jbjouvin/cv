@@ -32,6 +32,7 @@ body {
 
 #header {
   margin-top: 20px;
+  margin-bottom: 75px;
 }
 
 .skill {
@@ -90,4 +91,8 @@ body {
 
 .nav-up {
   display: none;
+}
+
+@media print {
+  .pagebreaker {page-break-before: always;}
 }
