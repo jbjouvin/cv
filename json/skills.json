@@ -46,7 +46,7 @@
         "levelColor": "success"
       },
       {
-        "names": "Python, Shell, Javascript, sed, regexp",
+        "names": "Python, Shell, sed, regexp",
         "level": "85%",
         "levelColor": "success"
       },
@@ -57,14 +57,19 @@
       },
       {
         "names": "Apache, Nginx, Tomcat, Weblogic",
-        "level": "60%",
+        "level": "68%",
         "levelColor": "warning"
-      },  
+      },
+      {
+        "names": "Javascript ES6, npm, yarn, React",
+        "level": "60%",
+        "levelColor": "success"
+      },
       {
         "names": "Vagrant, Terraform, Packer",
         "level": "60%",
         "levelColor": "warning"
-      },  
+      },
       {
         "names": "Puppet, Ansible",
         "level": "55%",
