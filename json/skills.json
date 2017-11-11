@@ -58,12 +58,12 @@
       {
         "names": "Apache, Nginx, Tomcat, Weblogic",
         "level": "68%",
-        "levelColor": "warning"
+        "levelColor": "success"
       },
       {
         "names": "Javascript ES6, npm, yarn, React",
         "level": "60%",
-        "levelColor": "success"
+        "levelColor": "warning"
       },
       {
         "names": "Vagrant, Terraform, Packer",
