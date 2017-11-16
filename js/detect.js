@@ -31,7 +31,12 @@ function detectIE() {
 // MAIN
 if (detectIE() != false) {
   alert("Utiliser Firefox ou Chrome");
-  window.onload = function() {
+  var pdf = document.createElement("a");
+  pdf.textContent = "Télécharger en pdf ?";
+  pdf.href = "JB_JOUVIN_no.pdf";
+  pdf.style.alignContent = "center";
+  window.onload = function () {
     document.body.innerHTML = "";
+    document.body.appendChild(pdf);
   };
 }
