@@ -46,7 +46,7 @@
         "levelColor": "success"
       },
       {
-        "names": "Python, Shell, sed, regexp",
+        "names": "Python, Shell",
         "level": "85%",
         "levelColor": "success"
       },
@@ -71,7 +71,7 @@
         "levelColor": "warning"
       },
       {
-        "names": "Puppet, Ansible",
+        "names": "Ansible",
         "level": "55%",
         "levelColor": "warning"
       },
