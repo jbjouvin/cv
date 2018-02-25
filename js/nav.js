@@ -128,8 +128,8 @@ function createMenu() {
 
 document.onreadystatechange = function() {
   if (document.readyState === "complete") {
-    // setTimeout(function() {
+    setTimeout(function() {
       createMenu();
-    // }, 1);
+    }, 50);
   }
 };
