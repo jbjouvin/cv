@@ -1,19 +1,5 @@
 {
-  "skills": [
-    {
-      "title": "Etudes Conception",
-      "id": "etudesConception",
-      "skillItem": [
-        "Assistance à Maîtrise d’Ouvrage",
-        "Conduite projet",
-        "Maîtrise d’œuvre, conception, réalisation",
-        "Conduite réunions",
-        "Recueil et définition du besoin",
-        "Rédaction des cahiers des charges, spéc. fonctionnelles",
-        "Rédaction de Chronogrammes et plans de bascule"
-      ]
-    },
-    {
+  "skills": [{
       "title": "Expertise Technique",
       "id": "expertiseTechnique",
       "skillItem": [
@@ -34,13 +20,25 @@
         "Formation et Conseils aux utilisateurs",
         "Rédaction de documentations et modes opératoires"
       ]
+    },
+    {
+      "title": "Etudes Conception",
+      "id": "etudesConception",
+      "skillItem": [
+        "Assistance à Maîtrise d’Ouvrage",
+        "Conduite projet",
+        "Maîtrise d’œuvre, conception, réalisation",
+        "Conduite réunions",
+        "Recueil et définition du besoin",
+        "Rédaction des cahiers des charges, spéc. fonctionnelles",
+        "Rédaction de Chronogrammes et plans de bascule"
+      ]
     }
   ],
   "techSkills": {
     "title": "Compétences Techniques",
     "id": "competencesTechniques",
-    "skillItem": [
-      {
+    "skillItem": [{
         "names": "SQL, PL SQL, Oracle, Mysql, Postgres",
         "level": "90%",
         "levelColor": "success"
