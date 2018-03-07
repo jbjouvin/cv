@@ -32,7 +32,7 @@ function initLoisirs(loisirs) {
 
 makeRequest = async () => {
   try {
-    loisirsData = await $.getJSON("json/loisirs.json");
+    loisirsData = await $.getJSON("json/spareTime.json");
     initLoisirs(loisirsData.loisirs);
   } catch (err) {
     console.log(err);
