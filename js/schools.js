@@ -42,7 +42,7 @@ function initFormation(formations) {
 
 makeRequest = async () => {
   try {
-    formationData = await $.getJSON("json/formations.json");
+    formationData = await $.getJSON("json/schools.json");
     initFormation(formationData.formations);
   } catch (err) {
     console.log(err);
