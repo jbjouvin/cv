@@ -33,7 +33,7 @@ function initLoisirs(loisirs) {
 makeRequest = async () => {
   try {
     loisirsData = await $.getJSON("json/spareTime.json");
-    initLoisirs(loisirsData.loisirs);
+    initLoisirs(loisirsData.spareTime);
   } catch (err) {
     console.log(err);
   }

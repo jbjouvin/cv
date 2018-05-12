@@ -111,7 +111,7 @@ function addExp(work) {
 makeRequest = async () => {
   try {
     xpData = await $.getJSON("json/xp.json");
-    xpData.work.forEach(function(work) {
+    xpData.xp.forEach(function(work) {
       addExp(work);
     });
   } catch (err) {
