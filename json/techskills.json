@@ -1,0 +1,58 @@
+{
+    "techSkills": {
+        "title": "Compétences Techniques",
+        "id": "competencesTechniques",
+        "skillItem": [
+            {
+                "names": "SQL, PL SQL, Oracle, Mysql, Postgres",
+                "level": "90%",
+                "levelColor": "success"
+            },
+            {
+                "names": "Python, Shell",
+                "level": "85%",
+                "levelColor": "success"
+            },
+            {
+                "names": "SVN, GIT",
+                "level": "80%",
+                "levelColor": "success"
+            },
+            {
+                "names": "Apache, Nginx, Tomcat, Weblogic",
+                "level": "68%",
+                "levelColor": "success"
+            },
+            {
+                "names": "Javascript ES6, npm, yarn",
+                "level": "60%",
+                "levelColor": "warning"
+            },
+            {
+                "names": "Vagrant, Terraform, Packer",
+                "level": "60%",
+                "levelColor": "warning"
+            },
+            {
+                "names": "Ansible",
+                "level": "55%",
+                "levelColor": "warning"
+            },
+            {
+                "names": "Docker, MongoDB",
+                "level": "55%",
+                "levelColor": "warning"
+            },
+            {
+                "names": "Travis",
+                "level": "50%",
+                "levelColor": "warning"
+            },
+            {
+                "names": "GCP, AWS",
+                "level": "40%",
+                "levelColor": "danger"
+            }
+        ]
+    }
+}
