@@ -3,25 +3,24 @@
     {
       "formationName": "Python Objet",
       "school": "Euronode / Orsys",
-      "schoolLogo":
-        "http://static8.viadeo-static.com/ZvbWWV-2iigGfcw69k2nrFS8AzY=/fit-in/200x200/filters:fill(white)/e0d287cbf368459b8c41e18dec39835c/image.jpg",
+      "schoolLogo": "http://static8.viadeo-static.com/ZvbWWV-2iigGfcw69k2nrFS8AzY=/fit-in/200x200/filters:fill(white)/e0d287cbf368459b8c41e18dec39835c/image.jpg",
+      "schoolLink": "http://euronode.com/",
       "place": "Paris la Défense",
       "date": "2016"
     },
     {
-      "formationName":
-        "Formation MIT Computer Science and Programming Using Python",
+      "formationName": "Formation MIT Computer Science and Programming Using Python",
       "school": "EDX",
-      "schoolLogo":
-        "https://qph.fs.quoracdn.net/main-thumb-t-225265-200-yhwdqtlehjuyalsnrgyzowcrruzshlms.jpeg",
+      "schoolLogo": "https://qph.fs.quoracdn.net/main-thumb-t-225265-200-yhwdqtlehjuyalsnrgyzowcrruzshlms.jpeg",
+      "schoolLink": "https://www.edx.org/",
       "place": "MOOC",
       "date": "2015"
     },
     {
       "formationName": "DUT en Génie Electrique Informatique Industrielle",
       "school": "IUT Cachan",
-      "schoolLogo":
-        "http://menagerietechnologique.fr/wp-content/uploads/2015/06/partenaire-logo-IUT-Cachan.png",
+      "schoolLogo": "http://menagerietechnologique.fr/wp-content/uploads/2015/06/partenaire-logo-IUT-Cachan.png",
+      "schoolLink": "http://www.iut-cachan.u-psud.fr/fr/index.html",
       "place": "Cachan",
       "date": "2001"
     },
@@ -29,6 +28,7 @@
       "formationName": "Bac STI Electrotechnique",
       "school": "Lycée Edouard Branly",
       "schoolLogo": "https://dwpt1kkww6vki.cloudfront.net/img/logo/academie-de-creteil.png",
+      "schoolLink": "http://branlycreteil.free.fr/",
       "place": "Créteil",
       "date": "1999"
     }
