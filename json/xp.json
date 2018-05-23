@@ -1,45 +1,6 @@
 {
   "xp": [
-    {
-      "title": "Criteo",
-      "titleLong": "Escalation Engineer / Devops",
-      "company": "Criteo",
-      "companyLink": "https://www.criteo.com",
-      "companyLogo": "https://www.criteo.com/fr/wp-content/themes/criteo2017/img/criteo-logo.svg",
-      "place": "Paris",
-      "dateStart": "01-2018",
-      "dateEnd": "A ce jour",
-      "missions": [
-        {
-          "title": "Escalation Engineer",
-          "tasks": [
-            "Stop the fire",
-            "sync people with each other",
-            "dev what you can",
-            "create monitoring board"
-
-          ]
-        }
-      ],
-      "technicalEnv": [
-        "git",
-        "chef",
-        "mesos",
-        "grafana",
-        "opsgenie",
-        "jenkins",
-        "python",
-        "flask", 
-        "django",
-        "shell",
-        "json",
-        "sql",
-        "mariadb",
-        "slack",
-        "jira",
-        "confluence"
-      ]
-    },
+    
     {
       "title": "Veolia2017",
       "titleLong": "Consultant technique sur progiciel de gestion de trésorerie",
