@@ -1,6 +1,68 @@
 {
   "xp": [
-    
+    {
+      "title": "Criteo",
+      "titleLong": "Escalation Engineer",
+      "company": "Criteo",
+      "companyLink": "https://www.criteo.com",
+      "companyLogo": "https://www.criteo.com/fr/wp-content/themes/criteo2017/img/criteo-logo.svg",
+      "place": "Paris",
+      "dateStart": "01-2018",
+      "dateEnd": "A ce jour",
+      "missions": [
+        {
+          "title": "Escalation Engineer aka Incident Dealer",
+          "tasks": [
+            "Stop the Flood",
+            "Protect the business",
+            "Handle Incident",
+            "Support Dev Team",
+            "Sync people with each other",
+            "Dev what you can !"
+          ],
+          "divLinks": [
+            {
+              "title": "Interview",
+              "link": "https://medium.com/@s.lebreton/f11608526983"
+            }
+          ]
+        }
+      ],
+      "technicalEnv": [
+        "git",
+        "gerrit",
+        "chef",
+        "mesos",
+        "grafana",
+        "kibana ELK",
+        "opsgenie",
+        "jenkins",
+        "python",
+        "flask - Django",
+        "Go",
+        "C# - .net Core",
+        "Java",
+        "Scala",
+        "json",
+        "js",
+        "Couchbase",
+        "Memcached",
+        "Mssql",
+        "mariadb",
+        "hadoop",
+        "hive",
+        "langoustine - cuttle",
+        "protobuf",
+        "parquet",
+        "kafka",
+        "kerberos",
+        "ldap",
+        "slack",
+        "jira",
+        "confluence"
+      ]
+    },
+
     {
       "title": "Veolia2017",
       "titleLong": "Consultant technique sur progiciel de gestion de trésorerie",
@@ -17,17 +79,12 @@
             "Développement Python permettant l’injection de transactions en masse via fichier csv, pour déploiement nouvelles entités",
             "Migration serveur BugZilla win => linux",
             {
-              "miniTasks": [
-                "Reconfiguration apache2, mysql, Bugzilla"
-              ]
+              "miniTasks": ["Reconfiguration apache2, mysql, Bugzilla"]
             },
             "Création export comptable (xml, xsl) vers SAP, SAGE",
             "Accompagnement à l’externalisation du service bureau (Next => Datalog)",
             {
-              "miniTasks": [
-                "Lot 1 (MT940)",
-                "Lot 2 (MT101, MT210, MT300)"
-              ]
+              "miniTasks": ["Lot 1 (MT940)", "Lot 2 (MT101, MT210, MT300)"]
             },
             "Création export référentiel csv (Banque, Entités, Compte) vers Datalog",
             "Conduite projet mise en place FxAll en partenariat avec Reuters et WSS",

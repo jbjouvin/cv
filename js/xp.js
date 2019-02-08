@@ -44,6 +44,27 @@ function addMission(mission, title) {
       workDiv.appendChild(echoTask);
     }
   });
+  if (mission.divLinks) {
+    var linksH5 = document.createElement("h5");
+    linksH5.textContent = "Links";
+    linksH5.className = "tech-env-title";
+    workDiv.appendChild(linksH5);
+
+    var divLinks = mission.divLinks;
+    divLinks.forEach(function(divlink) {
+      console.log(divlink);
+
+      var echolinkLi = document.createElement("li");
+      echolinkLi.className = "mission-task";
+
+      var echolink = document.createElement("a");
+      echolink.href = divlink.link;
+      echolink.textContent = divlink.title;
+      echolink.target = "_blank";
+      echolinkLi.appendChild(echolink);
+      workDiv.appendChild(echolinkLi);
+    });
+  }
 }
 
 function addExp(work) {
