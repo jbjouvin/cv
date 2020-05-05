@@ -5,7 +5,7 @@
       "titleLong": "Escalation Engineer",
       "company": "Criteo",
       "companyLink": "https://www.criteo.com",
-      "companyLogo": "https://www.criteo.com/fr/wp-content/themes/criteo2017/img/criteo-logo.svg",
+      "companyLogo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR43jsZcaCnH9tb7xXWO9nAbDWynQU0h3qoc7pTv1VoUA8F0O2x&s",
       "place": "Paris",
       "dateStart": "01-2018",
       "dateEnd": "A ce jour",
@@ -62,13 +62,12 @@
         "confluence"
       ]
     },
-
     {
       "title": "Veolia2017",
       "titleLong": "Consultant technique sur progiciel de gestion de trésorerie",
       "company": "Veolia",
       "companyLink": "http://www.veolia.fr",
-      "companyLogo": "https://pbs.twimg.com/profile_images/668049310655889408/PL9XfBUr_400x400.png",
+      "companyLogo": "https://is3-ssl.mzstatic.com/image/thumb/Purple117/v4/ca/7c/8f/ca7c8fa3-4cec-5e9b-383a-644ee37e5fda/source/256x256bb.jpg",
       "place": "Paris / Aubervilliers",
       "dateStart": "04-2015",
       "dateEnd": "12-2017",
@@ -79,12 +78,17 @@
             "Développement Python permettant l’injection de transactions en masse via fichier csv, pour déploiement nouvelles entités",
             "Migration serveur BugZilla win => linux",
             {
-              "miniTasks": ["Reconfiguration apache2, mysql, Bugzilla"]
+              "miniTasks": [
+                "Reconfiguration apache2, mysql, Bugzilla"
+              ]
             },
             "Création export comptable (xml, xsl) vers SAP, SAGE",
             "Accompagnement à l’externalisation du service bureau (Next => Datalog)",
             {
-              "miniTasks": ["Lot 1 (MT940)", "Lot 2 (MT101, MT210, MT300)"]
+              "miniTasks": [
+                "Lot 1 (MT940)",
+                "Lot 2 (MT101, MT210, MT300)"
+              ]
             },
             "Création export référentiel csv (Banque, Entités, Compte) vers Datalog",
             "Conduite projet mise en place FxAll en partenariat avec Reuters et WSS",
@@ -136,7 +140,7 @@
       "titleLong": "Consultant Expertise technique et reprise de données",
       "company": "Caisse des dépôts",
       "companyLink": "http://www.caissedesdepots.fr",
-      "companyLogo": "https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Logo_groupe_Caisse_des_D%C3%A9p%C3%B4ts.svg/656px-Logo_groupe_Caisse_des_D%C3%A9p%C3%B4ts.svg.png",
+      "companyLogo": "https://www.arkolia-energies.com/images/demo_content/partenaires/samesize/caisse.jpg",
       "place": "Paris",
       "dateStart": "09-2013",
       "dateEnd": "03-2015",
@@ -199,7 +203,7 @@
       "titleLong": "Consultant technique au sein du département Veolia IT",
       "company": "Veolia",
       "companyLink": "http://www.veolia.fr",
-      "companyLogo": "https://pbs.twimg.com/profile_images/668049310655889408/PL9XfBUr_400x400.png",
+      "companyLogo": "https://is3-ssl.mzstatic.com/image/thumb/Purple117/v4/ca/7c/8f/ca7c8fa3-4cec-5e9b-383a-644ee37e5fda/source/256x256bb.jpg",
       "place": "Nanterre",
       "dateStart": "08-2011",
       "dateEnd": "09-2013",
@@ -269,7 +273,7 @@
       "titleLong": "Analyste Exploitation Production",
       "company": "Accor / Edenred",
       "companyLink": "http://www.edenred.fr/",
-      "companyLogo": "https://pbs.twimg.com/profile_images/935444443087458304/5UyqPSBZ_400x400.jpg",
+      "companyLogo": "https://res-4.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/k8d5x8rhlonofxavd7wk",
       "place": "Paris",
       "dateStart": "09-2007",
       "dateEnd": "04-2011",
@@ -329,7 +333,7 @@
       "titleLong": "Technicien d'exploitation",
       "company": "Opéra National de Paris",
       "companyLink": "http://www.operadeparis.fr",
-      "companyLogo": "data:image/png;base64,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",
+      "companyLogo": "https://cdn-wp.weshareapps.com/wp-content/uploads/2017/08/24212205/12003254_1203925729621207_6562301047334318329_n-256x256.jpg",
       "place": "Paris",
       "dateStart": "01-2005",
       "dateEnd": "06-2007",
@@ -363,7 +367,7 @@
       "titleLong": "Technicien logiciel / électronique embarqué",
       "company": "Bosch",
       "companyLink": "http://www.bosch.fr",
-      "companyLogo": "https://www.comparatif-aspirateur.com/wp-content/uploads/2017/02/aspirateur-bosch.jpg",
+      "companyLogo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPNj3g_3p2181dYFe9dHCYU12UJfSCcmcvEhw-taIZzmSLmSH60A&s",
       "place": "Saint-Ouen",
       "dateStart": "09-2001",
       "dateEnd": "10-2004",
